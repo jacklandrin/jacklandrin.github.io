@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Civilization and Geography"
+date: "2019-10-08"
+categories: 
+  - "culture"
+---
+
+Some people think every civilization must have the own special gene of the culture; actually, different countries all generate randomly the same factors of culture and idea, but many of these factors gradually dissolved during the long history, because of environment where the civilizations exist.
+
+In western world, the democracy is not there at all. It is hard to imagine that Greece, the country which created the first democratic system in ancient, was the most powerful empire during Byzantine period. The emperor of this state even held more authority than Chinese monarch at one time. However, the changes of political environment can alter everything; the democratic tradition returned Greece again after WWII.
+
+Although the thinking method of logic promoted to generate the legal institution in the west, the same idea that government used law to rule a state also appeared in Chinese Warring States Period (BC 447 ~ BC 221). Han Fei proposed to make strict statute to maintain the order of states. Nonetheless, rigidly enforcing these rules was difficult in a large and agricultural country; the Qin Dynasty that executed in this way was overthrown by people after only 14 years. Eventually, Chinese selected the gentler method to govern this country, which is morality. The Confucianism that advocates mercy, love and respect became the main idealism from Han Dynasty as yet.
+
+The old countries all attempted to adopt kinds of thoughts to keep their dominations, and the current existences are natural selection in the history. These evolutions of civilization were determined by geological and economic environments. The oceanic states became open and adventurous; the land states established their elaborate hierarchy and art of rule. This generations of cultural character are not about western or eastern.
+
+Though Japan has an oriental surface of culture and its habit is affected by Chinese culture, it still holds more characters like oceanic states. If you learn more about Japanese history, you will find the history is more closed to the European Middle Ages, when there were many independent small states and weak central government. Maybe because Japanese preferred to make oceanic commerce, they started some wars with China from Tang Dynasty to attempt to control sea route, and they got it in Qing-Japan War. Besides, in the Edo Bakufu period, Japanese still learned situation of development of world in that time with Rangaku which means Dutch learning. This is the ‘personality’ of oceanic country, aggressive and exploratory.
+
+By contrast, Turkish began to study the philosophy of rule as well after Conquering Time. The Ottoman Turkey Empire inherited large territory from Byzantine and Arab, which made different race, different religion, different language to blend together. Though Turkish did not view themselves as Asians any more, they brought eastern civilization to Europe, gunpowder, double entry accounting and bureaucracy. Nevertheless, for the profit of high tariff, commerce that was Muslim tradition got less and less important. As a land-right country, its rulers paid more attention to how to manage this complex and old empire. For these type countries, perusing inner stability is the topic that never changes.
+
+Whatever conservatism and radicalism, they are both shaped by environment. This situation may also happen within one country. There are different geological environments between Northern and Southern of USA. The sunshine and plain made the south become a paradise of planting; in the north the ports and forests created the unique shipbuilding base. After American War of Independence 78 years, the southern states still kept conservative slavery, while New England and Great Lakes region had became an important area of seaport commerce in North America. This conflict of socioeconomic formation that was derived from difference of geology led to the war that followed. Finally, although the Union which had characters of oceanic states defeated the Confederacy which had some characters of land states in the Civil War, the production mode in the South did not happened completely to change until the Mid-20th century, because of the Globalization.
