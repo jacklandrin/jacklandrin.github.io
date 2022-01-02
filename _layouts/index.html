@@ -11,11 +11,11 @@ layout: default
   <article class="post-body">
     <h2 class="post-title">
       <a href="{{ post.url | relative_url }}">
-        {{ post.excerpt | strip_html | truncatewords:75 }}
+        {{ post.title }}
       </a>
     </h2>
     {% include post-meta.html post=post %}
-
+    
     {% if post.excerpt %}
       {{ post.excerpt }}
     {% else %}

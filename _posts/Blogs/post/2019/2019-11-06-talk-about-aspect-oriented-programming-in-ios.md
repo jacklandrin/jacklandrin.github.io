@@ -2,8 +2,10 @@
 layout: post
 title: "Talk about Aspect Oriented Programming in iOS"
 date: "2019-11-06"
-tags: 
+categories: 
   - "programming"
+tags:
+  - "Objective-C"
 ---
 
 ## 1\. What's the Aspect Oriented Programming?

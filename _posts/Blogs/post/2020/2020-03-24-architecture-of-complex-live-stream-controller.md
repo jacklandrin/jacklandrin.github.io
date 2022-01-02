@@ -3,7 +3,7 @@ layout: post
 title: "Architecture of Complex Live Stream Controller"
 date: "2020-03-24"
 categories: 
-  - "it"
+  - "programming"
 ---
 
 ## Problems & Analysis

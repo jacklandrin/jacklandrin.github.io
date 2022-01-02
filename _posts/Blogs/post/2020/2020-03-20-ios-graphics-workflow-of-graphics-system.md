@@ -2,10 +2,10 @@
 layout: post
 title: "iOS Graphics: Workflow of Graphics System"
 date: "2020-03-20"
+excerpt: The iOS graphics series will introduce some content about principle of graphics processing and methods keeping iOS screen fluency, which include screen refresh essential, reason of display stalls, display performance optimising, openGL, AsyncDisplayKit, SwiftUI, etc.
 categories: 
-  - "it"
-tags: 
-  - "ios"
+  - "programming"
+
 ---
 
 The iOS graphics series will introduce some content about principle of graphics processing and methods keeping iOS screen fluency, which include screen refresh essential, reason of display stalls, display performance optimising, openGL, AsyncDisplayKit, SwiftUI, etc.

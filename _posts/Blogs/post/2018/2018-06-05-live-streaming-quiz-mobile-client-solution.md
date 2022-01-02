@@ -3,9 +3,8 @@ layout: post
 title: "The Solution of Live Streaming Quiz Mobile Client"
 date: "2018-06-05"
 categories: 
-  - "it"
-tags: 
-  - "ios"
+  - "programming"
+
 ---
 
 Live Streaming Quiz(LSQ) is a very prevalent interact game from Q4 2017. Many live streaming video companies all published own quiz feature in Appstore. Today I introduce my project of LSQ.

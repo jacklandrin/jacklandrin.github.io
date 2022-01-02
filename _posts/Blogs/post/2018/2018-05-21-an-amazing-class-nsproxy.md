@@ -3,9 +3,7 @@ layout: post
 title: "An Amazing Class: NSProxy"
 date: "2018-05-21"
 categories: 
-  - "it"
-tags: 
-  - "ios"
+  - "programming"
 ---
 
 **NSProxy** is a root class in Objective-C. yes, **NSObject** is not unique root class. From [the definition of NSProxy](https://developer.apple.com/documentation/foundation/nsproxy?language=objc) we can think NSProxy as a simplified NSObject. It just implements protocol. As an abstract class, the methods need to be implemented by subclass. One of them **forwardInvocation:** is the most key method of this class, and it can implement a part of feature of fowarding message.

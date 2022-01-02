@@ -2,6 +2,10 @@
 layout: post
 title: "How to check if a Value is valid in NSArray or NSDictionary?"
 date: "2018-05-20"
+categories: 
+  - "programming"
+tags:
+  - "Objective-C"
 ---
 
 I often encounter a problem in my work, that the value from json of server response is not match client's data structure, in paticular PHP server. The result of this problem is application frequently crashing. So in order to solve this problem, I designed a serises of ways to try.

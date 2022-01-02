@@ -23,15 +23,16 @@ disqus:
 # post:
 #   excerpt: true
 
-title: Jack
+title: JackLandrin
 email: jacklandrin@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Jacklandrin's Blogs
+  iOS & MacOS dev Blogs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jacklandrin.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jacklandrin
 github_username:  jack
-excerpt_separator: <!--more-->
+paginate: 5
+# excerpt_separator: <!--more-->
 
 
 # Build settings

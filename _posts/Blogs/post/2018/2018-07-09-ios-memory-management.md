@@ -3,9 +3,9 @@ layout: post
 title: "iOS Memory Management"
 date: "2018-07-09"
 categories: 
-  - "it"
-tags: 
-  - "ios"
+  - "programming"
+tags:
+  - "Objective-C"
 ---
 
 # iOS Memory Management

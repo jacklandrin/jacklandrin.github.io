@@ -2,8 +2,11 @@
 layout: post
 title: "JLConsoleLog"
 date: "2020-04-28"
-tags: 
-  - "programming"
+categories: 
+  - "iOS SDK"
+tags:
+  - "Swift"
+excerpt: JLConsoleLog is an awesome tool In-App to help swift developer log information in both development and production environment. You won't miss any key and useful logs about the bugs in non-debug mode. You also can integrate it in your project's backdoor toolkit, it will help you solve vital issues.
 ---
 
 ## What is JLConsoleLog?

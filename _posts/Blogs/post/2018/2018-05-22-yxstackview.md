@@ -3,9 +3,9 @@ layout: post
 title: "YXStackView"
 date: "2018-05-22"
 categories: 
-  - "it"
-tags: 
-  - "ios"
+  - "iOS SDK"
+tags:
+  - "Objective-C"
 ---
 
 UIToolbar is an useful control in UIKit. But after iOS 11 we need to add some compatible code to keep UI layout. Then I found UIStackView can be used as layout. However it doesn't have some function like `UIBarButtonSystemItemFlexibleSpace`. So in order to create a container view supporting flexible space, I wrote **YXStackView**.

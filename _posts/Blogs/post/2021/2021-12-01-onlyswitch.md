@@ -3,9 +3,11 @@ layout: post
 title: "OnlySwitch"
 date: "2021-12-01"
 categories: 
-  - "it"
+  - "MacOS App"
 tags: 
-  - "programming"
+  - "Swift"
+  - "SwiftUI"
+excerpt: OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide ugly notch of new Mackbook Pro. The switches show on your statusbar, you can easily control them.
 ---
 # OnlySwitch
 <p align="left">

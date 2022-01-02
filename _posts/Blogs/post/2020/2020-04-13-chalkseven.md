@@ -2,9 +2,13 @@
 layout: post
 title: "ChalkSeven"
 date: "2020-04-13"
+excerpt: ChalkSeven is a drop 7 game developed with SwiftUI. You can drop down a ball with number to a proper location into the grid. If a ball's number equals the count of continuous balls in its row or column, the ball will explode. Besides, there are two special balls, solid ball and pending ball. If a solid ball nearby a ball exploding, it'll be a pending ball; if a pending ball nearby a ball exploding, it'll be a normal ball with a number.
 categories: 
   - "game"
-  - "it"
+  - "iOS App"
+tags:
+  - "Swift"
+  - "SwiftUI"
 ---
 
 ![](/assets/img/images/icon-180.png)

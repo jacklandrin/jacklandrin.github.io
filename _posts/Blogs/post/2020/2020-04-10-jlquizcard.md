@@ -3,7 +3,10 @@ layout: post
 title: "JLQuizCard"
 date: "2020-04-10"
 categories: 
-  - "it"
+  - "iOS App"
+tags:
+  - "Swift"
+  - "SwiftUI"
 ---
 
 ![](/assets/img/images/quiz-card-icon-2.jpg)

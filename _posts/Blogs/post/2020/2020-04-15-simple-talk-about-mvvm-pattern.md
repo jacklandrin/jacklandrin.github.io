@@ -3,7 +3,8 @@ layout: post
 title: "Simple Talk about - MVVM pattern"
 date: "2020-04-15"
 categories: 
-  - "it"
+  - "programming"
+excerpt: bout a decade ago, I started to learn client app programming. The first framework that I met was Microsoft WPF. It had a very powerful developing approach that was MVVM. Microsoft provided a series of original syntax and toolkits to help developer implement a client app with MVVM. You don’t only write a WPF client using it, but also Sliverlight and Windows Phone app. 
 ---
 
 ## Personal History about MVVM

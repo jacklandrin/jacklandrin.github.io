@@ -3,7 +3,11 @@ layout: post
 title: "SpringRadio"
 date: "2020-03-27"
 categories: 
-  - "it"
+  - "iOS App"
+  - "multimedia"
+tags:
+  - "Swift"
+  - "SwiftUI"
 ---
 
 ![](/assets/img/images/icon.png)

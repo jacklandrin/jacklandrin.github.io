@@ -3,9 +3,9 @@ layout: post
 title: "How to improve live video streaming?"
 date: "2018-05-14"
 categories: 
-  - "it"
-tags: 
+  - "programming"
   - "multimedia"
+
 ---
 
 ## 1\. How live video streaming works?

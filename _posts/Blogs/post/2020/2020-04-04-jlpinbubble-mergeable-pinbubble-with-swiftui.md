@@ -3,7 +3,10 @@ layout: post
 title: "JLPinBubble Mergeable PinBubble with SwiftUI"
 date: "2020-04-04"
 categories: 
-  - "it"
+  - "iOS SDK"
+tags:
+  - "Swift"
+  - "SwiftUI"
 ---
 
 ## What is JLPinBubble?
