@@ -7,120 +7,136 @@ categories:
 tags: 
   - "programming"
 ---
-![AppIcon](/assets/img/images/only_switch_256.png)
+# OnlySwitch
+<p align="left">
+<img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
+</p>
 
-_**Menubar is smaller, you only need an All-in-One switch.**_
 
-[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_1.6/OnlySwitch.dmg)
+***Menubar is smaller, you only need an All-in-One switch.***
+
+[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_1.7/OnlySwitch.dmg)
 
 ## What's the OnlySwitch?
-
-OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide ugly notch of new Mackbook Pro. The switches show on your statusbar, you can easily control them.  
+OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide ugly notch of new Mackbook Pro. The switches show on your statusbar, you can easily control them.
 Since Version 1.2, OnlySwitch supports **simplified Chinese** and **German**.
-
-![Sits in the status bar](/assets/img/images/onlySwitch_16.png)
+Since Version 1.7, Shortcuts can be imported in OnlySwitch.
+<p align="center">
+<img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/onlySwitch_17.png" width="60%" align="center" />
+</p>
 
 ## Switch list
 
-| Switch | status |
-| --- | --- |
-| Hide desktop | finish |
-| Dark mode | finish |
-| Screen Saver | finish |
-| Night Shift | finish |
-| Autohide Dock | finish |
-| Airpods | finish |
-| Bluetooth | finish |
-| Xcode cache | finish |
-| Autohide Menu Bar | finish |
-| Show hidden files | finish |
-| Radio Station | finish |
-| Keep awake | finish |
-| Empty trash | finish |
-| Empty pasteboard | finish |
-| Mute | finish |
-| Show user library folder | finish |
-| Show extension name | finish |
-| Pomodoro timer | finish |
-| small launchpad icon | finish |
-| Hide notch | exist some issues |
-| No disturb mode | todo |
+| Switch                   | status            |
+|:-------------------------|-------------------|
+| Hide desktop             | finish            |
+| Dark mode                | finish            |
+| Screen Saver             | finish            |
+| Night Shift              | finish            |
+| Autohide Dock            | finish            |
+| Airpods                  | finish            |
+| Bluetooth                | finish            |
+| Xcode cache              | finish            |
+| Autohide Menu Bar        | finish            |
+| Show hidden files        | finish            |
+| Radio Station            | finish            |
+| Keep awake               | finish            |
+| Empty trash              | finish            |
+| Empty pasteboard         | finish            |
+| Mute                     | finish            |
+| Show user library folder | finish            |
+| Show extension name      | finish            |
+| Pomodoro timer           | finish            |
+| Small launchpad icon     | finish            |
+| Low power mode           | require password  |
+| Hide notch               | exist some issues |
+| No disturb mode          | todo              |
 
 Since Version 1.3, switches can be added or removed on list.
 
 ## Welcome to pull request for these
 
-- support Big Sur
-- support other languges
-- fix bug: radio player crash
+* support Big Sur
+* support other languges
+* fix bug: radio player crash
 
 If you have other good idea💡, send E-mail to me.
 
-## About hiding new Macbook Notch
+## About hiding new Macbook Notch 
 
-The Hide notch switch only shows on build-in display of M1 Pro/Max Macbook Pro. The switch just controls current desktop, not for all work desktops.  
+The Hide notch switch only shows on build-in display of M1 Pro/Max Macbook Pro. The switch just controls current desktop, not for all work desktops.
 Now, the Hide notch switch supports dynamic wallpaper, just the processing takes much longer time.
-
-## About AirPods Switch
+## About AirPods Switch 
 
 I use classOfDevice(2360344) to check if a bluetooth device is Airpods Pro, but I'm not sure whether other AirPods modules are also 2360344, since I only have two AriPods Pros. If you are using AirPods 1~3, please tell me what the classOfDevice is. Or I can detect the count of battery value to check if AirPods(when count is 3, it's AirPods), like **AirPods Battery Monitor For MAC OS**.
 
 ## About Radio Player
-
 Radio Player supports m3u stream since version 1.6, but without sound wave effect. If your Radio Player crashes, please send the crash log and stream url to me.
 
-## Can't compile preview by Xcode 13.2.1 on some Macs
+## About Low Power Mode
+Low Power Mode uses Terminal commands that require root access, so the app will ask you to enter password on every toggle.
 
-I found I can't run the preview of SwiftUI by Xcode 13.2.1 on my M1 Pro Macbook. It'll show an error like this [https://developer.apple.com/forums/thread/697037](https://developer.apple.com/forums/thread/697037). Meanwhile, the OnlySwitch status bar icon will be missing, including old version app. However it's normal that I run it on my i7 Macbook. I'm not sure whether this is a bug of Xcode. The current workaround is installing back to Xcode 13.2.
+## About Shortcuts
+Shortcuts is a powerful iOS app which can help people make fantasitic automation functions. It comes to macOS in Monterey as well. Many users eager OnlySwitch has more customizable features, and one good news is that the app supports Shortcuts display since Version 1.7. More menubar space therefore is saved. 
+In the next versions, OnlySwitch will also provide some Shortcuts actions to impove user experience.
+
+<p align="center">
+<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2022/01/shortcutsDisplay.png" width="60%" align="center" />
+</p>
+
+## Can't compile preview by Xcode 13.2.1 on some Macs
+I found I can't run the preview of SwiftUI by Xcode 13.2.1 on my M1 Pro Macbook. It'll show an error like this https://developer.apple.com/forums/thread/697037. Meanwhile, the OnlySwitch status bar icon will be missing, including old version app. However it's normal that I run it on my i7 Macbook. I'm not sure whether this is a bug of Xcode. The current workaround is installing back to Xcode 13.2.
 
 ## Screenshots
 
-![Sits in the status bar](/assets/img/images/hidenotch.png)
+<p align="center">
+<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/hidenotch.png" width="60%" align="center" />
+</p>
 
 ## They talk about it
-
-- German Article - itopnews.de [https://www.itopnews.de/2021/12/onlyswitch-mac-mit-switches-aus-der-systemleiste-steuern/](https://www.itopnews.de/2021/12/onlyswitch-mac-mit-switches-aus-der-systemleiste-steuern/)
-- Ifun.de [https://www.ifun.de/eheimtipp-onlyswitch-schaltzentrale-in-der-mac-menueleiste-179482/](https://www.ifun.de/eheimtipp-onlyswitch-schaltzentrale-in-der-mac-menueleiste-179482/)
-- appgefahren.de [https://www.appgefahren.de/onlyswitch-kleines-tool-mit-wichtigen-aktionen-fuer-die-mac-menueleiste-312135.html](https://www.appgefahren.de/onlyswitch-kleines-tool-mit-wichtigen-aktionen-fuer-die-mac-menueleiste-312135.html)
-- CASCHYS BLOG [https://stadt-bremerhaven.de/only-switch-fuer-macos-schnellzugriff-auf-einige-systemoptionen/](https://stadt-bremerhaven.de/only-switch-fuer-macos-schnellzugriff-auf-einige-systemoptionen/)
-- softpedia [https://mac.softpedia.com/get/System-Utilities/OnlySwitch.shtml](https://mac.softpedia.com/get/System-Utilities/OnlySwitch.shtml)
-- macupdate [https://www.macupdate.com/app/mac/63719/onlyswitch](https://www.macupdate.com/app/mac/63719/onlyswitch)
+* German Article - itopnews.de https://www.itopnews.de/2021/12/onlyswitch-mac-mit-switches-aus-der-systemleiste-steuern/
+* Ifun.de https://www.ifun.de/eheimtipp-onlyswitch-schaltzentrale-in-der-mac-menueleiste-179482/
+* appgefahren.de https://www.appgefahren.de/onlyswitch-kleines-tool-mit-wichtigen-aktionen-fuer-die-mac-menueleiste-312135.html
+* CASCHYS BLOG https://stadt-bremerhaven.de/only-switch-fuer-macos-schnellzugriff-auf-einige-systemoptionen/
+* softpedia https://mac.softpedia.com/get/System-Utilities/OnlySwitch.shtml
+* macupdate https://www.macupdate.com/app/mac/63719/onlyswitch
+* v1tx https://www.v1tx.com/post/onlyswitch/
+* OSCHINA https://www.oschina.net/p/onlyswitch
 
 ## About Apple's warning at first open
-
 Some users ask me why masOS shows a warning box below, when they first open Only Switch.
+<p align="center">
+<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/os_warning.png" width="35%" align="center" />
+</p>
 
-![Sits in the status bar](/assets/img/images/os_warning.png)
-
-Because the app isn't got from App Store, and I use some private API in project. You can at [here](https://support.apple.com/guide/mac-help/apple-cant-check-app-for-malicious-software-mchleab3a043/mac) to learn more about it.  
+Because the app isn't got from App Store, and I use some private API in project. You can at [here](https://support.apple.com/guide/mac-help/apple-cant-check-app-for-malicious-software-mchleab3a043/mac) to learn more about it.
 You can follow these steps to use Only Switch.
-
 1. Open System Preference
 2. Click Security & Privacy
 3. Select General
 4. Click **Open Anyway**
 5. Finally click Open on the dialog box. Now macOS won't block that you open the app.
+<p align="center">
+<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/os_tip.png" width="60%" align="center" />
+</p>
 
-![Sits in the status bar](/assets/img/images/os_tip.png)
 
 ## Reference
 
-- NightShift switch refer to [Nocturnal](https://github.com/joshjon/nocturnal)
-- [LaunchAtLogin](https://github.com/sindresorhus/LaunchAtLogin)
-- AirPods Battery refer to [AirPods Battery Monitor For MAC OS](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)
-- Dynamic Wallpaper processing refer to [https://itnext.io/macos-mojave-dynamic-wallpaper-fd26b0698223](https://itnext.io/macos-mojave-dynamic-wallpaper-fd26b0698223) and [wallpapper](https://github.com/mczachurski/wallpapper)
-- [AlertToast](https://github.com/elai950/AlertToast)
-- [AudioStreamer](https://github.com/syedhali/AudioStreamer) modified for live streaming
-- [AudioSpectrum](https://github.com/potato04/AudioSpectrum) modified for Appkit
-- [Alamofire](https://github.com/Alamofire/Alamofire)
-- Sound Source: [mixkit](https://mixkit.co)
+* NightShift switch refer to [Nocturnal](https://github.com/joshjon/nocturnal)
+* [LaunchAtLogin](https://github.com/sindresorhus/LaunchAtLogin)
+* AirPods Battery refer to [AirPods Battery Monitor For MAC OS](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)
+* Dynamic Wallpaper processing refer to https://itnext.io/macos-mojave-dynamic-wallpaper-fd26b0698223 and [wallpapper](https://github.com/mczachurski/wallpapper)
+* [AlertToast](https://github.com/elai950/AlertToast)
+* [AudioStreamer](https://github.com/syedhali/AudioStreamer) modified for live streaming
+* [AudioSpectrum](https://github.com/potato04/AudioSpectrum) modified for Appkit
+* [Alamofire](https://github.com/Alamofire/Alamofire)
+* Sound Source: [mixkit](https://mixkit.co)
 
 ## License
-
 MIT
-
 ## Donate
-
 If you like it, help supporting this app by giving me a cup of tea in order for me to keep coding.
-
-![Sits in the status bar](/assets/img/images/donation.jpeg "Made by QRCobot")
+<p align="center">
+<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/donation.jpeg" width="20%" align="left" title="Made by QRCobot"/>
+</p>
