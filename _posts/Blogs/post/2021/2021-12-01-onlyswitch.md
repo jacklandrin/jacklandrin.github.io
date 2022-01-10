@@ -14,18 +14,32 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 <img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
 </p>
 
+# OnlySwitch
+<p align="left">
+<img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
+</p>
+
 
 ***Menubar is smaller, you only need an All-in-One switch.***
 
-[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_1.7/OnlySwitch.dmg)
+## Install by Homebrew
+
+```
+brew install only-switch
+```
+## Manually Download
+[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_1.9/OnlySwitch.dmg)
 
 ## What's the OnlySwitch?
 OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide ugly notch of new Mackbook Pro. The switches show on your statusbar, you can easily control them.
+
 Since Version 1.2, OnlySwitch supports **simplified Chinese** and **German**.
-Since Version 1.7, Shortcuts can be imported in OnlySwitch.
+
+Since Version 1.7, **Shortcuts** can be imported in OnlySwitch.
 <p align="center">
-<img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/onlySwitch_17.png" width="60%" align="center" />
+<img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/onlySwitch_19.png" width="60%" align="center" />
 </p>
+
 
 ## Switch list
 
@@ -50,16 +64,25 @@ Since Version 1.7, Shortcuts can be imported in OnlySwitch.
 | Show extension name      | finish            |
 | Pomodoro timer           | finish            |
 | Small launchpad icon     | finish            |
+| Mute mic                 | finish            |
 | Low power mode           | require password  |
 | Hide notch               | exist some issues |
-| No disturb mode          | todo              |
 
 Since Version 1.3, switches can be added or removed on list.
+
+## Shortcuts Actions
+
+| Actions             | status            |
+|---------------------|-------------------|
+| Get wallpaper image | exist some issues |
+| Get wallpaper url   | finish            |
+| is dark mode        | finish            |
+| set dark mode       | finish            |
 
 ## Welcome to pull request for these
 
 * support Big Sur
-* support other languges
+* support other languages
 * fix bug: radio player crash
 
 If you have other good idea💡, send E-mail to me.
@@ -73,7 +96,7 @@ Now, the Hide notch switch supports dynamic wallpaper, just the processing takes
 I use classOfDevice(2360344) to check if a bluetooth device is Airpods Pro, but I'm not sure whether other AirPods modules are also 2360344, since I only have two AriPods Pros. If you are using AirPods 1~3, please tell me what the classOfDevice is. Or I can detect the count of battery value to check if AirPods(when count is 3, it's AirPods), like **AirPods Battery Monitor For MAC OS**.
 
 ## About Radio Player
-Radio Player supports m3u stream since version 1.6, but without sound wave effect. If your Radio Player crashes, please send the crash log and stream url to me.
+Radio Player supports m3u, acc stream, but without sound wave effect. If your Radio Player crashes, please send the crash log and stream url to me. You can close sound wave effect on Radio setting, and that player is AVPlayer, more stable.
 
 ## About Low Power Mode
 Low Power Mode uses Terminal commands that require root access, so the app will ask you to enter password on every toggle.
@@ -84,6 +107,12 @@ In the next versions, OnlySwitch will also provide some Shortcuts actions to imp
 
 <p align="center">
 <img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2022/01/shortcutsDisplay.png" width="60%" align="center" />
+</p>
+
+OnlySwitch offers some Shortcus actions since Version 1.8. For example, you can config your own dark mode switch. (**Set Appearance** action by Shortcuts can also set dark mode, but the appearance status cannot be detected. So, OnlySwitch provides a set dark mode action)
+
+<p align="center">
+<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2022/01/shortcutsdarkmode.png" width="60%" align="center" />
 </p>
 
 ## Can't compile preview by Xcode 13.2.1 on some Macs
@@ -104,6 +133,7 @@ I found I can't run the preview of SwiftUI by Xcode 13.2.1 on my M1 Pro Macbook.
 * macupdate https://www.macupdate.com/app/mac/63719/onlyswitch
 * v1tx https://www.v1tx.com/post/onlyswitch/
 * OSCHINA https://www.oschina.net/p/onlyswitch
+* Macken https://www.macken.xyz/2021/12/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/
 
 ## About Apple's warning at first open
 Some users ask me why masOS shows a warning box below, when they first open Only Switch.
