@@ -3,8 +3,6 @@ layout: category
 title: Apps
 ---
 
-# Apps
-
 ## OnlySwitch
 <p align="left">
 <img alt="AppIcon" src="https://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
