@@ -14,12 +14,6 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 <img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
 </p>
 
-# OnlySwitch
-<p align="left">
-<img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
-</p>
-
-
 ***Menubar is smaller, you only need an All-in-One switch.***
 
 ## Install by Homebrew
@@ -28,14 +22,14 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 brew install only-switch
 ```
 ## Manually Download
-[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_1.9/OnlySwitch.dmg)
+[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.0/OnlySwitch.dmg)
 
 ## What's the OnlySwitch?
 OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide ugly notch of new Mackbook Pro. The switches show on your statusbar, you can easily control them.
 
-Since Version 1.2, OnlySwitch supports **simplified Chinese** and **German**.
-
 Since Version 1.7, **Shortcuts** can be imported in OnlySwitch.
+
+Since Version 2.0, supports **keyboard shortcuts**. You can control your all switches and Shortcuts by keyboard.
 <p align="center">
 <img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/onlySwitch_19.png" width="60%" align="center" />
 </p>
@@ -79,6 +73,9 @@ Since Version 1.3, switches can be added or removed on list.
 | is dark mode        | finish            |
 | set dark mode       | finish            |
 
+## Supported Languages
+English, simplified Chinese, German, Croatian
+
 ## Welcome to pull request for these
 
 * support Big Sur
@@ -103,10 +100,12 @@ Low Power Mode uses Terminal commands that require root access, so the app will 
 
 ## About Shortcuts
 Shortcuts is a powerful iOS app which can help people make fantasitic automation functions. It comes to macOS in Monterey as well. Many users eager OnlySwitch has more customizable features, and one good news is that the app supports Shortcuts display since Version 1.7. More menubar space therefore is saved. 
-In the next versions, OnlySwitch will also provide some Shortcuts actions to impove user experience.
+In the next versions, OnlySwitch will also provide more Shortcuts actions to impove user experience.
+
+Since Version 2.0, keyboard shortcuts can be set for Shortcuts.
 
 <p align="center">
-<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2022/01/shortcutsDisplay.png" width="60%" align="center" />
+<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2022/01/shortcutskeyboard.png" width="60%" align="center" />
 </p>
 
 OnlySwitch offers some Shortcus actions since Version 1.8. For example, you can config your own dark mode switch. (**Set Appearance** action by Shortcuts can also set dark mode, but the appearance status cannot be detected. So, OnlySwitch provides a set dark mode action)
@@ -134,6 +133,7 @@ I found I can't run the preview of SwiftUI by Xcode 13.2.1 on my M1 Pro Macbook.
 * v1tx https://www.v1tx.com/post/onlyswitch/
 * OSCHINA https://www.oschina.net/p/onlyswitch
 * Macken https://www.macken.xyz/2021/12/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/
+* APPL CH https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html
 
 ## About Apple's warning at first open
 Some users ask me why masOS shows a warning box below, when they first open Only Switch.
@@ -164,6 +164,7 @@ You can follow these steps to use Only Switch.
 * [AudioSpectrum](https://github.com/potato04/AudioSpectrum) modified for Appkit
 * [Alamofire](https://github.com/Alamofire/Alamofire)
 * Sound Source: [mixkit](https://mixkit.co)
+* [KeyboardShortcuts](https://github.com/sindresorhus/KeyboardShortcuts)
 
 ## License
 MIT
