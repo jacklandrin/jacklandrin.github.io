@@ -9,6 +9,8 @@ categories:
 tags:
   - "Swift"
   - "SwiftUI"
+  - "game"
+  - "iOS App"
 ---
 
 ![](/assets/img/images/icon-180.png)

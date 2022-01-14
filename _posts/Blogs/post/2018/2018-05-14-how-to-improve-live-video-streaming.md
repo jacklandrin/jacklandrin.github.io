@@ -5,7 +5,9 @@ date: "2018-05-14"
 categories: 
   - "programming"
   - "multimedia"
-
+tags:
+  - "programming"
+  - "multimedia"
 ---
 
 ## 1\. How live video streaming works?

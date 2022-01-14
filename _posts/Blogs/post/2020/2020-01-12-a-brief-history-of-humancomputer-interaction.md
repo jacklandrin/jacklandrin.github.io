@@ -5,6 +5,8 @@ date: "2020-01-12"
 excerpt: Computers are like magic boxes that reveal various extraordinary features and amazingly change our lives. Nowadays, we use laptops, mobile phones and the other fresh even smarter devices every day, which makes that we find they are our essential partners and even friends. Perhaps we have been used to using them, but do you give attention to how we operate them and how the ways of interaction changed in history? In case you have no clear idea about that, this article will introduce a brief history of Human-Computer Interaction (HCI).
 categories: 
   - "it"
+tags:
+  - "it"
 ---
 
 Computers are like magic boxes that reveal various extraordinary features and amazingly change our lives. Nowadays, we use laptops, mobile phones and the other fresh even smarter devices every day, which makes that we find they are our essential partners and even friends. Perhaps we have been used to using them, but do you give attention to how we operate them and how the ways of interaction changed in history? In case you have no clear idea about that, this article will introduce a brief history of Human-Computer Interaction (HCI).

@@ -4,7 +4,8 @@ title: "Sidecar display issue on Mac OS Catalina when True Tone or Night Shift a
 date: "2019-11-06"
 categories: 
   - "Macbook"
-
+tags:
+  - "Macbook"
 ---
 
 Sidecar is a fantastic feature on the newest Mac OS, Catalina. It helps us work on external display space with iPad. ![sidecar](/assets/img/images/IMG_4643.jpg) I upgraded my Macbook Pro to Mac OS 10.15 and my iPad Pro to iPad OS 13.1, but there was some oddness of display colour that the window's shadow was beige not grey.

@@ -6,6 +6,7 @@ categories:
   - "programming"
 tags:
   - "Objective-C"
+  - "programming"
 ---
 
 # iOS Memory Management

@@ -8,6 +8,8 @@ categories:
 tags:
   - "Swift"
   - "SwiftUI"
+  - "iOS App"
+  - "multimedia"
 ---
 
 ![](/assets/img/images/icon.png)

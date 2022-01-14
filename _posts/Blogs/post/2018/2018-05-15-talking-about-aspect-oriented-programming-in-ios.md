@@ -6,6 +6,7 @@ categories:
   - "programming"
 tags:
   - "Objective-C"
+  - "programming"
 ---
 
 ## 1\. What's the Aspect Oriented Programming?

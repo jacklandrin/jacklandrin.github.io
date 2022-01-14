@@ -4,6 +4,8 @@ title: "Architecture of Complex Live Stream Controller"
 date: "2020-03-24"
 categories: 
   - "programming"
+tags:
+  - "programming"
 ---
 
 ## Problems & Analysis
