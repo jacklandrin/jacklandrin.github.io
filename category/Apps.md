@@ -13,6 +13,8 @@ title: Apps
 
 It's the first of Github Week & Today Swift Trending by OnlySwitch in Dec, 2021.
 
+It's introduced by [ifun.de](https://www.ifun.de/suche/OnlySwitch), [itopnews.de](https://www.itopnews.de/?s=OnlySwitch), [appgefahren.de](https://www.appgefahren.de/onlyswitch-kleines-tool-mit-wichtigen-aktionen-fuer-die-mac-menueleiste-312135.html), [CASCHYS BLOG](https://stadt-bremerhaven.de/only-switch-fuer-macos-schnellzugriff-auf-einige-systemoptionen/), [softpedia.com](https://mac.softpedia.com/get/System-Utilities/OnlySwitch.shtml), [v1tx](https://www.v1tx.com/post/onlyswitch/), [oschina](https://www.oschina.net/p/onlyswitch), [macken](https://www.macken.xyz/2021/01/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/), [AAPL Ch](https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html)
+
 Tag: `open source`, `macOS`, `SwiftUI`
 
 [Github](https://github.com/jacklandrin/OnlySwitch)
@@ -25,6 +27,8 @@ Tag: `open source`, `macOS`, `SwiftUI`
 </p>
 
 **QRCobot** is an extraordinary utility for QR & Bar code. Users can easily create QR & Bar codes that they want, and share them with others. The iOS widgets can show the favourite QR codes on Home screen, which helps users conveniently scan them.
+
+It's introduced by [iphone-ticker.de](https://www.iphone-ticker.de/auch-als-widget-qrcobot-erstellt-qr-und-strichcodes-184093/)
 
 Tag: `iOS`, `SwiftUI`
 
