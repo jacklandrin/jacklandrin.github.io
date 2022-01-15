@@ -3,11 +3,10 @@ layout: category
 title: Resumé
 ---
 <div style="width: 100%;height: 100%;border: none;">
-    <iframe id="theFrame" src="/assets/img/images/resume.pdf" style="width: 100% !important;height: 100%;border: none;"></iframe>
+    <iframe id="theFrame" style="width: 100% !important;height: 100%;border: none;"></iframe>
     <script>
-        document.getElementById("theFrame").contentWindow.onload = function() {
-            this.document.getElementsByTagName("img")[0].style.width="100%";
-        };
+        var pdfurl = 'https://jacklandrin.github.io/assets/img/images/resume.pdf'
+        pdfurl = 'http://docs.google.com/gview?url=' + pdfurl + '&embedded=true';
+        document.getElementById("theFrame").src = pdfurl;
         </script>
-    <p>The PDF file can't display completely on some mobile devices.</p>
 </div>
