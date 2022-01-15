@@ -23,7 +23,7 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 brew install only-switch
 ```
 ## Manually Download
-[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.0/OnlySwitch.dmg)
+[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.1/OnlySwitch.dmg)
 
 ## What's the OnlySwitch?
 OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide ugly notch of new Mackbook Pro. The switches show on your statusbar, you can easily control them.
@@ -60,6 +60,7 @@ Since Version 2.0, supports **keyboard shortcuts**. You can control your all swi
 | Pomodoro timer           | finish            |
 | Small launchpad icon     | finish            |
 | Mute mic                 | finish            |
+| Show Finder pathbar      | finish            |
 | Low power mode           | require password  |
 | Hide notch               | exist some issues |
 
@@ -106,7 +107,7 @@ In the next versions, OnlySwitch will also provide more Shortcuts actions to imp
 Since Version 2.0, keyboard shortcuts can be set for Shortcuts.
 
 <p align="center">
-<img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2022/01/shortcutskeyboard.png" width="60%" align="center" />
+<img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/sharedshortcuts.png" width="60%" align="center" />
 </p>
 
 OnlySwitch offers some Shortcus actions since Version 1.8. For example, you can config your own dark mode switch. (**Set Appearance** action by Shortcuts can also set dark mode, but the appearance status cannot be detected. So, OnlySwitch provides a set dark mode action)
@@ -125,8 +126,8 @@ I found I can't run the preview of SwiftUI by Xcode 13.2.1 on my M1 Pro Macbook.
 </p>
 
 ## They talk about it
-* German Article - itopnews.de https://www.itopnews.de/2021/12/onlyswitch-mac-mit-switches-aus-der-systemleiste-steuern/
-* Ifun.de https://www.ifun.de/eheimtipp-onlyswitch-schaltzentrale-in-der-mac-menueleiste-179482/
+* German Article - itopnews.de https://www.itopnews.de/?s=OnlySwitch
+* Ifun.de https://www.ifun.de/suche/OnlySwitch
 * appgefahren.de https://www.appgefahren.de/onlyswitch-kleines-tool-mit-wichtigen-aktionen-fuer-die-mac-menueleiste-312135.html
 * CASCHYS BLOG https://stadt-bremerhaven.de/only-switch-fuer-macos-schnellzugriff-auf-einige-systemoptionen/
 * softpedia https://mac.softpedia.com/get/System-Utilities/OnlySwitch.shtml
@@ -134,7 +135,7 @@ I found I can't run the preview of SwiftUI by Xcode 13.2.1 on my M1 Pro Macbook.
 * v1tx https://www.v1tx.com/post/onlyswitch/
 * OSCHINA https://www.oschina.net/p/onlyswitch
 * Macken https://www.macken.xyz/2021/12/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/
-* APPL CH https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html
+* AAPL Ch https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html
 
 ## About Apple's warning at first open
 Some users ask me why masOS shows a warning box below, when they first open Only Switch.
@@ -166,6 +167,16 @@ You can follow these steps to use Only Switch.
 * [Alamofire](https://github.com/Alamofire/Alamofire)
 * Sound Source: [mixkit](https://mixkit.co)
 * [KeyboardShortcuts](https://github.com/sindresorhus/KeyboardShortcuts)
+
+## Contributors
+
+@C0d3Br3aker for German translation
+
+@milotype for Croatian translation
+
+@berkbatuhans for Turkish translation
+
+@wrngwrld for volume slider of radio player
 
 ## License
 MIT
