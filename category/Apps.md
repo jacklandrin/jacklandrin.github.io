@@ -9,9 +9,11 @@ title: Apps
 </p>
 
 
-**OnlySwitch** provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Mackbook Pro. The switches show on your statusbar, you can easily control them.
+**OnlySwitch** provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can easily control them.
 
 It's the first of Github Week & Today Swift Trending by OnlySwitch in Dec, 2021.
+
+![](https://www.jacklandrin.com/wp-content/uploads/2022/01/github_trend_week.png)
 
 It's introduced by [ifun.de](https://www.ifun.de/suche/OnlySwitch), [itopnews.de](https://www.itopnews.de/?s=OnlySwitch), [appgefahren.de](https://www.appgefahren.de/onlyswitch-kleines-tool-mit-wichtigen-aktionen-fuer-die-mac-menueleiste-312135.html), [CASCHYS BLOG](https://stadt-bremerhaven.de/only-switch-fuer-macos-schnellzugriff-auf-einige-systemoptionen/), [softpedia.com](https://mac.softpedia.com/get/System-Utilities/OnlySwitch.shtml), [v1tx](https://www.v1tx.com/post/onlyswitch/), [oschina](https://www.oschina.net/p/onlyswitch), [macken](https://www.macken.xyz/2021/01/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/), [AAPL Ch](https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html)
 
