@@ -9,7 +9,7 @@ title: Apps
 </p>
 
 
-**OnlySwitch** provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can easily control them.
+**OnlySwitch** provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly.
 
 It's the first of Github Week & Today Swift Trending by OnlySwitch in Dec, 2021.
 
