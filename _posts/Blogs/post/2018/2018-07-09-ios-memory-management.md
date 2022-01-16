@@ -9,8 +9,6 @@ tags:
   - "programming"
 ---
 
-# iOS Memory Management
-
 ## Memory Management in Objective-C
 
 Memory management is the programming discipline of managing the life cycles of objects and freeing them when they are no longer needed. Managing object memory is a matter of performance; if an application doesn’t free unneeded objects, its memory footprint grows and performance suffers. However, garbage collection is not avaliable in iOS. iOS manages memory by reference count. Let's learn about it.
