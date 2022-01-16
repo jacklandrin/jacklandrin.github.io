@@ -4,7 +4,7 @@ title: About
 sidebar_link: true
 ---
 
-* ❤️ I love coding!
+* ❤️ I code, therefore I am!
 * 🏠 come from Tianjin, China🇨🇳
 * 📍 live in Amsterdam, Netherlands🇳🇱
 * 🗣 speak Mandrin🇨🇳, English🇬🇧 and a little German🇩🇪
