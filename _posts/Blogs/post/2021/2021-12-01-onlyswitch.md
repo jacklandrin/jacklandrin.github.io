@@ -14,6 +14,11 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 <p align="left">
 <img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
 </p>
+# OnlySwitch
+<p align="left">
+<img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
+</p>
+
 
 ***Menubar is smaller, you only need an All-in-One switch.***
 
@@ -23,18 +28,27 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 brew install only-switch
 ```
 ## Manually Download
-[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.1/OnlySwitch.dmg)
+[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.1.2/OnlySwitch.dmg)
 
 ## What's the OnlySwitch?
-OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly.Switch and Shortcuts items can be customized to show on the list.
+OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly. Switch and Shortcuts items can be customized (remove/add or sort) to show on the list.
 
 Since Version 1.7, **Shortcuts** can be imported in OnlySwitch.
 
 Since Version 2.0, supports **keyboard shortcuts**. You can control your all switches and Shortcuts by keyboard.
+
+
 <p align="center">
 <img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/onlySwitch_19.png" width="60%" align="center" />
 </p>
 
+## Shortcuts Gallery
+
+Everyone can contribute macOS Shortcuts for OnlySwitch now. Please read [How to contribute for Shortcuts Gallery](https://github.com/jacklandrin/OnlySwitch/blob/main/ShortcutsGalleryContributing.md). The shared Shortcuts will be displayed here:
+
+<p align="center">
+<img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/shortcutsgallery.png" width="60%" align="center" />
+</p>
 
 ## Switch list
 
@@ -105,10 +119,6 @@ Shortcuts is a powerful iOS app which can help people make fantasitic automation
 In the next versions, OnlySwitch will also provide more Shortcuts actions to impove user experience.
 
 Since Version 2.0, keyboard shortcuts can be set for Shortcuts.
-
-<p align="center">
-<img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/sharedshortcuts.png" width="60%" align="center" />
-</p>
 
 OnlySwitch offers some Shortcus actions since Version 1.8. For example, you can config your own dark mode switch. (**Set Appearance** action by Shortcuts can also set dark mode, but the appearance status cannot be detected. So, OnlySwitch provides a set dark mode action)
 
