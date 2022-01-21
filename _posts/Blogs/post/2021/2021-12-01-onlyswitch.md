@@ -8,7 +8,7 @@ tags:
   - "Swift"
   - "SwiftUI"
   - "MacOS App"
-excerpt: OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly.Switch and Shortcuts items can be customized to show on the list.
+excerpt: OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly.Switch and Shortcuts items can be customized (remove/add or sort) to show on the list.
 ---
 
 <p align="left">
@@ -28,7 +28,7 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 brew install only-switch
 ```
 ## Manually Download
-[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.1.2/OnlySwitch.dmg)
+[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.1.3/OnlySwitch.dmg)
 
 ## What's the OnlySwitch?
 OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly. Switch and Shortcuts items can be customized (remove/add or sort) to show on the list.
@@ -36,7 +36,6 @@ OnlySwitch provides a series of toggle switches to simply your routine work, suc
 Since Version 1.7, **Shortcuts** can be imported in OnlySwitch.
 
 Since Version 2.0, supports **keyboard shortcuts**. You can control your all switches and Shortcuts by keyboard.
-
 
 <p align="center">
 <img alt="Sits in the status bar" src="https://www.jacklandrin.com/wp-content/uploads/2022/01/onlySwitch_19.png" width="60%" align="center" />
@@ -52,31 +51,20 @@ Everyone can contribute macOS Shortcuts for OnlySwitch now. Please read [How to 
 
 ## Switch list
 
-| Switch                   | status            |
-|:-------------------------|-------------------|
-| Hide desktop             | finish            |
-| Dark mode                | finish            |
-| Screen Saver             | finish            |
-| Night Shift              | finish            |
-| Autohide Dock            | finish            |
-| Airpods                  | finish            |
-| Bluetooth                | finish            |
-| Xcode cache              | finish            |
-| Autohide Menu Bar        | finish            |
-| Show hidden files        | finish            |
-| Radio Station            | finish            |
-| Keep awake               | finish            |
-| Empty trash              | finish            |
-| Empty pasteboard         | finish            |
-| Mute                     | finish            |
-| Show user library folder | finish            |
-| Show extension name      | finish            |
-| Pomodoro timer           | finish            |
-| Small launchpad icon     | finish            |
-| Mute mic                 | finish            |
-| Show Finder pathbar      | finish            |
-| Low power mode           | require password  |
-| Hide notch               | exist some issues |
+| Switch            | status | Switch                   | status            |
+|:------------------|--------|:-------------------------|:------------------|
+| Hide desktop      | finish | Hide notch               | exist some issues |
+| Dark mode         | finish | Low power mode           | require password  |
+| Screen Saver      | finish | Show Finder pathbar      | finish            |
+| Night Shift       | finish | Mute mic                 | finish            |
+| Autohide Dock     | finish | Small launchpad icon     | finish            |
+| Airpods           | finish | Pomodoro timer           | finish            |
+| Bluetooth         | finish | Show extension name      | finish            |
+| Xcode cache       | finish | Show user library folder | finish            |
+| Autohide Menu Bar | finish | Mute                     | finish            |
+| Show hidden files | finish | Empty pasteboard         | finish            |
+| Radio Station     | finish | Empty trash              | finish            |
+| Keep awake        | finish | Show Recent Apps on Dock | finish            |
 
 Since Version 1.3, switches can be added or removed on list.
 
@@ -147,7 +135,9 @@ I found I can't run the preview of SwiftUI by Xcode 13.2.1 on my M1 Pro Macbook.
 * Macken https://www.macken.xyz/2021/12/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/
 * AAPL Ch https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html
 
-## About Apple's warning at first open
+## About Apple's warning at first open before version 2.1.3
+Note: OnlySwitch has been notarized by Apple since version 2.1.3, so the warning box won't show in the new version.
+
 Some users ask me why masOS shows a warning box below, when they first open Only Switch.
 <p align="center">
 <img alt="Sits in the status bar" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/os_warning.png" width="35%" align="center" />
