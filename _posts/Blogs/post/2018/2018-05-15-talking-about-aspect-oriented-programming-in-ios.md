@@ -2,6 +2,7 @@
 layout: post
 title: "Talking about Aspect Oriented Programming in iOS"
 date: "2018-05-15"
+excerpt: The Apsect Oriented Programming (AOP) is usually used in backend development. But it's more and more popular in clients programming recent days.
 categories: 
   - "programming"
 tags:

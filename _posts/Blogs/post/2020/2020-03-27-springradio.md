@@ -2,6 +2,7 @@
 layout: post
 title: "SpringRadio"
 date: "2020-03-27"
+excerpt: SpringRadio is an online radio player with SwiftUI. The player control's background colour could change depending on station's image. Tapping the image on player control, will go to the detail page where there are some floating Text animation. The orientations include horizontal and vertical and it can randomly display. The inspiration comes from Microsoft MP3, Zune HD.
 categories: 
   - "iOS App"
   - "multimedia"

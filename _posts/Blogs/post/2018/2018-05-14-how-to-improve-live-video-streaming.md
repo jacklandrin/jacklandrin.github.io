@@ -2,6 +2,8 @@
 layout: post
 title: "How to improve live video streaming?"
 date: "2018-05-14"
+excerpt: The process of live video streaming： The broadcaster (smart phone, OBS or other device) puts streaming from caputure or media resource to source server in Real-Time Messaging Protocol (RTMP).
+
 categories: 
   - "programming"
   - "multimedia"

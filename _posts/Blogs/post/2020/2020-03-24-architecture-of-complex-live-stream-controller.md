@@ -2,6 +2,7 @@
 layout: post
 title: "Architecture of Complex Live Stream Controller"
 date: "2020-03-24"
+excerpt: In a live stream application, the live stream studio viewController is the most intricate page where there are lots of configurable widgets of kinds of businesses. In my past experience of working, I met that there are nearly 100 widgets on one page and more than ten different types of studio pages. 
 categories: 
   - "programming"
 tags:
@@ -10,7 +11,13 @@ tags:
 
 ## Problems & Analysis
 
-In a live stream application, the live stream studio viewController is the most intricate page where there are lots of configurable widgets of kinds of businesses. In my past experience of working, I met that there are nearly 100 widgets on one page and more than ten different types of studio pages. Hence, the code of this page will hard to maintain and sustainable develop, even cause software disaster of management, if only one viewController manages all business logic. But it's the true about our project, which more than 20,000 lines code was written in one file, before I refactored it. It was very terrible. ![](/assets/img/images/IMG_4631.png) Indeed, the live stream page is very complex, so it need to be carefully analyse. The studio businesses could be classified according to their types:
+In a live stream application, the live stream studio viewController is the most intricate page where there are lots of configurable widgets of kinds of businesses. In my past experience of working, I met that there are nearly 100 widgets on one page and more than ten different types of studio pages. Hence, the code of this page will hard to maintain and sustainable develop, even cause software disaster of management, if only one viewController manages all business logic. But it's the true about our project, which more than 20,000 lines code was written in one file, before I refactored it. It was very terrible. 
+
+<p align="center">
+<img alt="Sits in the status bar" src="/assets/img/images/IMG_4631.png" width="30%" align="center" />
+</p>
+
+Indeed, the live stream page is very complex, so it need to be carefully analyse. The studio businesses could be classified according to their types:
 
 - A. studio for host of live video programme
 - B. live of single host for audience

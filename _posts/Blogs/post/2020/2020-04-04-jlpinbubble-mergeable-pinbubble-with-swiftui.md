@@ -2,6 +2,7 @@
 layout: post
 title: "JLPinBubble Mergeable PinBubble with SwiftUI"
 date: "2020-04-04"
+excerpt: JPinBubble is a control that contains a series of pin bubbles which can be merged and divided when they are closed to each other. It could be applied to map apps as indicator of specific locations. As users pinch the screen to zoom the map in , the two overlapped bubbles will merge into one, vice versa.
 categories: 
   - "iOS SDK"
 tags:
