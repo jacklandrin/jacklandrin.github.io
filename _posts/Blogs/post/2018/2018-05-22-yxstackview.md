@@ -87,7 +87,9 @@ item3.customView = view3;
 
 and you will get this layout:
 
-![](/assets/img/images/uitoolbar.png)
+<p align="center">
+<img alt="Sits in the status bar" src="/assets/img/images/uitoolbar.png" width="40%" align="center" />
+</p>
 
 If else UIStackView mode:
 
@@ -140,4 +142,7 @@ YXStackView *toolbar = [[YXStackView alloc] initWithFrame:CGRectMake(0, 200, sel
 
 and you will got :
 
-![](/assets/img/images/uistackview.png)
+<p align="center">
+<img alt="Sits in the status bar" src="/assets/img/images/uistackview.png" width="40%" align="center" />
+</p>
+
