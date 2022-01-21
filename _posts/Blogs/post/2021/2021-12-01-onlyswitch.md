@@ -14,11 +14,6 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 <p align="left">
 <img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
 </p>
-# OnlySwitch
-<p align="left">
-<img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
-</p>
-
 
 ***Menubar is smaller, you only need an All-in-One switch.***
 
