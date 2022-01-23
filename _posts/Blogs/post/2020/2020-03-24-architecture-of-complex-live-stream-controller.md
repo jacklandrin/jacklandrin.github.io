@@ -110,4 +110,8 @@ The basic business group could inherit the core business class to add some commo
 
 ![](/assets/img/images/IMG_0075.jpg) How to abstract an universal model of widgets and comprehend the core of a studio are the key of the design. A good interface could uncouple the logic between studio and widgets. The groups just need to concentrate themselves and their business shouldn't be impacted by others logic. Besides, the studio should be a controller to manage the relations among widgets and between widgets and studio in a MVC pattern.
 
-This architecture still has many problems such as performance and some detail of development isn't considered, for our team needed to rapidly shift to new architecture in short time. Indeed, it has much space that could be optimised.
+## Outcome
+
+The outcome is incredible, the code lines of ViewController decreased from **more than 20,000** to **246**. Moreover, the new features can integrate it effordlessly and developers can easily debug and make logs.
+
+However, this architecture still has many problems such as performance and some detail of development isn't considered, for our team needed to rapidly shift to new architecture in short time. Indeed, it has much space that could be optimised.
