@@ -45,7 +45,7 @@ Tag: `iOS`, `SwiftUI`
 " width="128px" align="center" />
 </p>
 
-**Weibo** is the biggest social media platform in China. It has **500 million** users in global.
+**Weibo** is the biggest social media platform in China. It has **500 million** users globally.
 
  I am responsible for the development of video live streaming and vlog functions.
 
