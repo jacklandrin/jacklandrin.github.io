@@ -96,7 +96,13 @@ Finally, I prefer to the latter one. I expanded the **StudioWidgetProtocol** to 
 
 ### 4\. A studio controller and good inheritance
 
-A studio controller is not a viewController. It should be retained by a viewController and maintains a studio life cycle that includes all life cycle of a viewController. A studio workflow decides this controller's life cycle, and the below flow chart shows the common workflow of most studio types. ![](/assets/img/images/live-studio-life-cycle.png) Meanwhile, the these steps of workflow should be divided into unambiguous classes contained in a good inheritance. Every class has its clear duty. ![](/assets/img/images/studio-structure.png) The root class of studio controller has only one studioWidget as root view. It's like a canvas on which entire tree structure of widgets is put. Additionally, it's added in the View Controller's view so that the studio also could be set as the part of page but full screen.
+A studio controller is not a viewController. It should be retained by a viewController and maintains a studio life cycle that includes all life cycle of a viewController. Addtionally, all event of widgets bind to each other or callback in the studio controller.
+
+A studio workflow decides this controller's life cycle, and the below flow chart shows the common workflow of most studio types. 
+![](/assets/img/images/live-studio-life-cycle.png)
+Meanwhile, the these steps of workflow should be divided into unambiguous classes contained in a good inheritance. Every class has its clear duty. 
+![](/assets/img/images/studio-structure.png)
+The root class of studio controller has only one studioWidget as root view. It's like a canvas on which entire tree structure of widgets is put. Additionally, it's added in the View Controller's view so that the studio also could be set as the part of page but full screen.
 
 The base business class claims main life cycle of studio, and adapts a lot of **virtual methods** for business group overloading. These methods are the ruled timing provided for developers. For example, there are some studio operation methods that define the timing of load studio, will leave studio, did leave studio. As well as the group members could flexibly consider to use which msg system or video player kits.
 
@@ -106,8 +112,12 @@ The core business achieves some common functions based on above classes. The Z a
 
 The basic business group could inherit the core business class to add some common widgets for most studio types. Then, the other groups could accomplish own studios types based on this architecture.
 
-## Main UML of Architecture
+## Main graph of Architecture
+This graph reveals the relationship among different modules:
 
+![](/assets/img/images/liveroom_graph.png)
+
+This is UML graph:
 ![](/assets/img/images/IMG_0075.jpg) How to abstract an universal model of widgets and comprehend the core of a studio are the key of the design. A good interface could uncouple the logic between studio and widgets. The groups just need to concentrate themselves and their business shouldn't be impacted by others logic. Besides, the studio should be a controller to manage the relations among widgets and between widgets and studio in a MVC pattern.
 
 ## Outcome
