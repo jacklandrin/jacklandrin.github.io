@@ -35,7 +35,9 @@ In the past, develeper need to manaully manage reference count, we call that man
 
 ### Runloop & Autorelease Pool
 
-Runloop is a loop meshanism for managing thread. The Application Kit creates at least one `NSRunloop` instance for one application. The apps run in this loop after launching, as shown in the diagram below, When a touch event happens, the Cocoa Touch framework detects the event, creates an event object, then allocates and initializes an `autorelease pool` that is basically a `NSAutoreleasePool` object (If you use ARC, you cannot use autorelease pools directly. Instead, you should use @autoreleasepool block). Cocoa touch then invokes your application event handler, making the event object available. ![](images/iOS-Application-Event-Loop.png)
+Runloop is a loop meshanism for managing thread. The Application Kit creates at least one `NSRunloop` instance for one application. The apps run in this loop after launching, as shown in the diagram below, When a touch event happens, the Cocoa Touch framework detects the event, creates an event object, then allocates and initializes an `autorelease pool` that is basically a `NSAutoreleasePool` object (If you use ARC, you cannot use autorelease pools directly. Instead, you should use @autoreleasepool block). Cocoa touch then invokes your application event handler, making the event object available. 
+
+![](/assets/img/images/iOS-Application-Event-Loop.png)
 
 The handler may put objects in the autorelease pool or use objects that were put into autorelease pool by other objects.
 
