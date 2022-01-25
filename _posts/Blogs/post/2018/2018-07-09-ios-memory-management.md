@@ -43,7 +43,7 @@ The handler may put objects in the autorelease pool or use objects that were put
 
 ![](/assets/img/images/ios-autorelease-pool.jpg)
 
-In the MRC, we can use `autorelease` method put a object in the autorelease pool. The `autorelease` method is different with `release` method mentioned in previous chapter. `release` is called immediately; decrementing `retainCount` by 1 and calling dealloc if it becomes zero.
+In the MRR, we can use `autorelease` method put a object in the autorelease pool. The `autorelease` method is different with `release` method mentioned in previous chapter. `release` is called immediately; decrementing `retainCount` by 1 and calling dealloc if it becomes zero.
 
 Apple documents about [Run Loops](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW23).
 
