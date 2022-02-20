@@ -23,7 +23,7 @@ excerpt: OnlySwitch provides a series of toggle switches to simply your routine 
 brew install only-switch
 ```
 ## Manually Download
-[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.2/OnlySwitch.dmg)
+[**Download the app**](https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.2.2/OnlySwitch.dmg)
 
 ## What's the OnlySwitch?
 OnlySwitch provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly. Switch and Shortcuts items can be customized (remove/add or sort) to show on the list.
@@ -73,7 +73,7 @@ Since Version 1.3, switches can be added or removed on list.
 | set dark mode       | finish            |
 
 ## Supported Languages
-English, simplified Chinese, German, Croatian, Turkish
+English, simplified Chinese, German, Croatian, Turkish, Polish, Filipino, Dutch, Italian, Russian
 
 ## Welcome to pull request for these
 
@@ -81,7 +81,7 @@ English, simplified Chinese, German, Croatian, Turkish
 * support other languages
 * fix bug: radio player crash
 
-If you have other good idea💡, send E-mail to me.
+If you have other good idea💡, feel free to send E-mail to me.
 
 ## About hiding new Macbook Notch 
 
@@ -129,6 +129,8 @@ I found I can't run the preview of SwiftUI by Xcode 13.2.1 on my M1 Pro Macbook.
 * OSCHINA https://www.oschina.net/p/onlyswitch
 * Macken https://www.macken.xyz/2021/12/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/
 * AAPL Ch https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html
+* appsofter https://appsofter.com/download/1265.html
+* lifehacker https://lifehacker.ru/onlyswitch
 
 ## About Apple's warning at first open before version 2.1.3
 Note: OnlySwitch has been notarized by Apple since version 2.1.3, so the warning box won't show in the new version.
@@ -172,6 +174,16 @@ You can follow these steps to use Only Switch.
 @berkbatuhans for Turkish translation
 
 @wrngwrld for volume slider of radio player
+
+@kpacholak for Polish translation
+
+Alex for Dutch translation
+
+Rosel for Filipino translation
+
+@bellaposa for Italian translation
+
+@kirillyakopov for Russian translation
 
 ## License
 MIT
