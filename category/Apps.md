@@ -3,6 +3,17 @@ layout: category
 title: Apps
 ---
 
+## PAYBACK
+<p align="left">
+<img alt="AppIcon" src="http://www.jacklandrin.com/wp-content/uploads/2023/06/payback.png" width="128px" align="center" />
+</p>
+
+**PAYBACK** is the biggest loyalty program in Germany. It has 30 million users and hundred partners. Users can scan bar codes or online shop to collect points. PAYBACK collaborates with partners to offer massive coupons for customers as well.
+
+Tag: `iOS`, `SwiftUI`, `TCA`
+
+[App Store](https://apps.apple.com/de/app/payback-karte-und-coupons/id363126964)
+
 ## OnlySwitch
 <p align="left">
 <img alt="AppIcon" src="https://www.jacklandrin.com/wp-content/uploads/2021/12/only_switch_256.png" width="128px" align="center" />
