@@ -9,7 +9,7 @@ categories:
   - "AI"
 ---
 
-# We should worry about AI
+
 Last year, I wrote an article, [Should we worry about AI](https://jacklandrin.github.io/ai/2023/04/01/Should-we-worry-about-AI.html). I interpret that we don't need to be worried AI will destroy our world at the end of the day, and we should regard it as just an advanced tool to use well. I'm generally less inclined to see new technologies in a negative light. However, we have to be concerned about some side effects of the AI age as well. 
 ![](/assets/img/images/AIControl.png)
 ## Content-Based Recommendations & Information cocoon
@@ -18,7 +18,7 @@ I believe that most people noticed that websites and apps can display content ba
 ### What's the Information cocoon?
 Information cocoon is as known as **Echo Chamber**, which refers to a situation where individuals are surrounded by, and primarily exposed to, information and ideas that align with their existing beliefs and perspectives. It can lead to limited exposure to diverse viewpoints and may reinforce pre-existing biases or opinions. Actually, this situation always happens in our human society, but AI systems possibly inadvertently contribute to or solidify these information bubbles by selectively presenting or amplifying content that aligns with a user's existing views, rather than providing a balanced and diverse range of information.
 
-![](/assets/img/images/informationbubble.png)
+![](/assets/img/images/imformationbubble.png)
 
 For example, I often search for political topics on a Q&A website, while my friend usually looks up travel topics on it. Many days later, I only can view political content on its home page, while my friend's only includes items about trips. It seems fine, we both follow our favourite topics, but after a long time, I will find there is only politics in my world, and I have less and less chance to learn about other people's topics such as travel. The content of my account locks me in an information bubble by my initial selection of topics. I'm cut off from other topics on this site. Nevertheless, it's not the worst situation. Let's see a real example.
 
