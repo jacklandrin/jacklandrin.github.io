@@ -3,6 +3,14 @@
     <channel>
         <title>Only Switch</title>
         <item>
+            <title>2.5.3</title>
+            <pubDate>Sat, 06 Jul 2024 21:13:00 +0200</pubDate>
+            <sparkle:version>197</sparkle:version>
+            <sparkle:shortVersionString>2.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.5.3/OnlySwitch.dmg" length="11939762" type="application/octet-stream" sparkle:edSignature="OXXd2gRQlsfa5ywl04LWGmqg4fzxKcH+d+A9rYgkeZ2Iph4YrgS7QauvyHrYwlHagXP9KeIsyvh9uSFexSI8AQ=="/>
+        </item>
+        <item>
             <title>2.5.2</title>
             <pubDate>Mon, 10 Jun 2024 00:04:28 +0200</pubDate>
             <sparkle:version>193</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.5.1/OnlySwitch.dmg" length="11775082" type="application/octet-stream" sparkle:edSignature="WlK7Pyu3fOFXk42XlLPH9nkvI01ffxZTzhsqg6+Guzdanp0wjIywgln9U2CCDvfZYLfBZqJuOB8v5PiQaZctBw=="/>
-        </item>
-        <item>
-            <title>2.5.0</title>
-            <pubDate>Sun, 25 Feb 2024 00:20:13 +0100</pubDate>
-            <sparkle:version>182</sparkle:version>
-            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.5.0/OnlySwitch.dmg" length="11653324" type="application/octet-stream" sparkle:edSignature="euUjZMh9jnoLGgjlWguN/cJI/KWZK4XMbKnrXSvQTCo9Roj1UAbGd3YmsLz7oOec7bCVJCsYsqquyX1WKwShAQ=="/>
         </item>
     </channel>
 </rss>
