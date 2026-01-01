@@ -3,6 +3,14 @@
     <channel>
         <title>Only Switch</title>
         <item>
+            <title>2.6.4</title>
+            <pubDate>Thu, 01 Jan 2026 11:33:33 +0100</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>2.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.4/OnlySwitch.dmg" length="21917728" type="application/octet-stream" sparkle:edSignature="ixo6nw1nho725GjxibvBqoshaJueaA3+j+AIXJnmPq1pmXbdiUm8p77m6g3S9aXpynDxB3SS0m9C12ytHJtQDQ=="/>
+        </item>
+        <item>
             <title>2.6.3</title>
             <pubDate>Mon, 22 Dec 2025 21:55:59 +0100</pubDate>
             <sparkle:version>241</sparkle:version>
