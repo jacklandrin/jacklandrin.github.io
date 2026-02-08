@@ -154,7 +154,7 @@
         </p>
 
         <div class="meta">
-          <span class="tag">Effective date: 2026-01-30</span>
+          <span class="tag">Effective date: 2026-02-08</span>
           <span class="tag">Applies to: OnlyBaby iOS app</span>
         </div>
 
@@ -162,18 +162,18 @@
         <ul>
           <li><strong>We do not sell your data.</strong></li>
           <li>
-            <strong
-              >We do not run third‑party ads or analytics SDKs in the app.</strong
-            >
+            <strong>We do not run third-party ads in the app.</strong>
           </li>
           <li>
-            Your data is stored in app files on your device, and
-            <strong>may sync via iCloud Documents</strong> if you are signed into
-            iCloud and iCloud Drive is available.
+            Your data is stored in app files on your device.
           </li>
           <li>
-            You can export your data (for example as JSON) using iOS share
-            features; you control where it is sent.
+            If you sign in with email/password, your logs can sync to
+            <strong>Google Firebase Firestore</strong> under your account.
+          </li>
+          <li>
+            After login, app file storage sync via iCloud Documents is paused
+            and cloud sync is handled by Firebase Firestore for supported logs.
           </li>
         </ul>
 
@@ -183,10 +183,12 @@
           information you enter, such as:
         </p>
         <ul>
+          <li>Email address and password (for optional account sign in/sign up).</li>
           <li>Contraction session entries (start/end time, duration).</li>
           <li>
             Baby log entries (diaper events and milk feeding volume in mL).
           </li>
+          <li>Pump log entries (timestamp and volume in mL).</li>
           <li>Optional baby birthday (to calculate age).</li>
         </ul>
 
@@ -201,9 +203,21 @@
           </li>
           <li>
             <strong>iCloud Documents (optional)</strong>: if iCloud is available
-            on your device, OnlyBaby stores these files in your iCloud Documents
-            container so they can sync across your Apple devices. Apple’s iCloud
-            services are governed by Apple’s terms and privacy policy.
+            and you are not signed in to OnlyBaby account sync, OnlyBaby may
+            store app files in your iCloud Documents container.
+          </li>
+          <li>
+            <strong>Firebase Authentication (optional)</strong>: if you sign up
+            or sign in, your email/password authentication is processed by Google
+            Firebase Authentication.
+          </li>
+          <li>
+            <strong>Firebase Firestore (optional)</strong>: when signed in, baby
+            logs, pump logs, and contraction logs can sync to Firestore under
+            your user ID, for example:
+            <code>/users/{uid}/babyLogs</code>,
+            <code>/users/{uid}/pumpLogs</code>, and
+            <code>/users/{uid}/contractions</code>.
           </li>
         </ul>
 
@@ -218,9 +232,10 @@
 
         <h2>Network access</h2>
         <p>
-          OnlyBaby does not require an account and does not include built-in
-          advertising or third‑party analytics. If you use iCloud Documents, data
-          synchronization is performed by iCloud.
+          OnlyBaby can work without an account for local tracking. If you use
+          account sign in/sign up, the app connects to Firebase services for
+          authentication and Firestore sync. If you are not signed in and iCloud
+          Documents is available, synchronization may be performed by iCloud.
         </p>
 
         <h2>Children’s privacy</h2>
@@ -235,6 +250,12 @@
           Your data remains on your device and/or in your iCloud Documents
           container until you delete it in the app, uninstall the app, or remove
           the files from iCloud Drive / your device.
+        </p>
+        <p>
+          If you use account sync, your synced log data is stored in Firebase
+          Firestore under your account. You can delete individual logs from the
+          app. If you delete your account in the app, Firebase Authentication
+          account deletion is requested.
         </p>
 
         <h2>Changes to this policy</h2>
