@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bo Liu - Resume</title>
+<style>
+    :root {
+        --accent-color: rgb(112, 155, 197);
+        --accent-dark: rgb(90, 132, 175);
+        --accent-light: rgba(112, 155, 197, 0.12);
+        --glass-bg: #ffffff;
+        --glass-border: rgba(112, 155, 197, 0.28);
+        --glass-shadow: 0 4px 20px rgba(112, 155, 197, 0.12);
+        --text-primary: #1e2a3a;
+        --text-secondary: #4a5a6e;
+    }
+
+    body {
+        margin: 0;
+        padding: 40px 20px;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        background-color: #f2f5f9;
+        color: var(--text-primary);
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+
+    .resume-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        box-shadow: var(--glass-shadow);
+        border-radius: 24px;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+    }
+
+    /* Header Section (Top wide) */
+    .header {
+        grid-column: 1 / -1;
+        padding: 30px 40px;
+        border-bottom: 1px solid var(--glass-border);
+        background: var(--accent-light);
+        position: relative;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        color: var(--accent-color);
+    }
+
+    .title {
+        color: var(--text-primary);
+        font-size: 1.2rem;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+    }
+
+    .contact-info a {
+        color: var(--accent-color);
+        text-decoration: none;
+    }
+    .contact-info a:hover {
+        color: var(--accent-dark);
+        text-decoration: underline;
+    }
+
+    /* Sidebar - theme color */
+    .sidebar {
+        padding: 30px;
+        border-right: none;
+        background: var(--accent-color);
+        color: #ffffff;
+    }
+
+    /* Main Content Section - white with dark text */
+    .main-content {
+        padding: 30px 40px;
+        background: #ffffff;
+    }
+
+    .main-content h2 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        color: var(--accent-dark);
+        border-bottom: 1px solid var(--glass-border);
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    .sidebar h2 {
+        color: #ffffff;
+        border-bottom-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    .main-content h2::after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 50px;
+        height: 2px;
+        background: var(--accent-color);
+    }
+
+    .section-item {
+        margin-bottom: 25px;
+    }
+
+    .job-title {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin: 0 0 5px 0;
+    }
+
+    .company-date {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+
+    ul {
+        margin: 0;
+        padding-left: 20px;
+        color: var(--text-secondary);
+    }
+
+    li {
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+
+    /* Skills and Education Tags - on theme sidebar */
+    .skill-category {
+        margin-bottom: 20px;
+    }
+    .skill-category strong {
+        display: block;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+    .skill-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .sidebar .tag {
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 4px 10px;
+        border-radius: 15px;
+        font-size: 0.85rem;
+        color: #ffffff;
+    }
+    .sidebar .tag:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+    .sidebar .section-item,
+    .sidebar .company-date,
+    .sidebar .job-title {
+        color: #ffffff;
+    }
+
+    /* Highlight bullet (no animation for clean PDF export) */
+    .ai-highlight {
+        position: relative;
+        list-style-type: none;
+    }
+    .ai-highlight::before {
+        content: '●';
+        color: var(--accent-color);
+        position: absolute;
+        left: -20px;
+    }
+    @media (max-width: 768px) {
+        .resume-container {
+            grid-template-columns: 1fr;
+        }
+        .sidebar {
+            border-right: none;
+            border-bottom: 2px solid var(--accent-dark);
+            order: 2; /* Put sidebar below main content on mobile */
+        }
+        .main-content {
+            order: 1;
+        }
+        .header {
+            padding: 20px;
+        }
+        .contact-info {
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="resume-container">
+    <header class="header">
+<h1>Bo Liu</h1>
+<div class="title">Senior iOS Developer</div>
+        <div class="contact-info">
+<span>📍 Berlin, Germany</span>
+<span>📞 +49 162 6590361</span>
+<span>✉️ jacklandrin@hotmail.com</span>
+<span><a href="https://github.com/jacklandrin">GitHub: jacklandrin</a></span>
+<span><a href="https://jacklandrin.github.io">Portfolio: jacklandrin.github.io</a></span>
+        </div>
+    </header>
+
+    <aside class="sidebar">
+        <section>
+<h2>Technical Skills</h2>
+            <div class="skill-category">
+<strong>Languages</strong>
+                <div class="skill-tags">
+<span class="tag">Swift</span>
+<span class="tag">Objective-C</span>
+<span class="tag">C++</span>
+<span class="tag">Python</span>
+<span class="tag">C#</span>
+<span class="tag">Shell</span>
+<span class="tag">Ruby</span>
+<span class="tag">AppleScript</span>
+                </div>
+            </div>
+            <div class="skill-category">
+<strong>Technologies</strong>
+                <div class="skill-tags">
+<span class="tag">SwiftUI</span>
+<span class="tag">TCA</span>
+<span class="tag">UIKit</span>
+<span class="tag">AppKit</span>
+<span class="tag">Core Data</span>
+<span class="tag">Git</span>
+<span class="tag">Jenkins</span>
+<span class="tag">fastlane</span>
+<span class="tag">CocoaPods</span>
+<span class="tag">SPM</span>
+                </div>
+            </div>
+            <div class="skill-category">
+<strong>Architecture</strong>
+                <div class="skill-tags">
+<span class="tag">MVC</span>
+<span class="tag">MVP</span>
+<span class="tag">MVVM</span>
+<span class="tag">VIPER</span>
+<span class="tag">Redux</span>
+<span class="tag">HTTP</span>
+<span class="tag">Multithreading</span>
+<span class="tag">Data Structures</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+<h2>Education</h2>
+            <div class="section-item">
+<div class="job-title">Tianjin University of Technology</div>
+<div class="company-date">2009-2013</div>
+<div>Bachelor of Science in Information Security</div>
+            </div>
+        </section>
+
+        <section>
+<h2>Languages</h2>
+            <div class="skill-tags">
+<span class="tag">Mandarin (Native)</span>
+<span class="tag">English (Fluent)</span>
+<span class="tag">German (B1)</span>
+            </div>
+        </section>
+    </aside>
+
+    <main class="main-content">
+        <section>
+<h2>Work Experience</h2>
+            
+            <div class="section-item">
+<h3 class="job-title">Senior Software Engineer (iOS)</h3>
+<div class="company-date">Axel Springer National Media & Tech GmbH / Berlin (12/2023 - Present)</div>
+                <ul>
+<li>Led development and modernization of large-scale iOS applications for a high-traffic media platform.</li>
+<li>Delivered Home Screen widgets, push notification infrastructure, and SwiftUI-based UI systems.</li>
+<li>Drove SwiftUI migration from legacy architectures, improving maintainability and development velocity.</li>
+<li>Adopted Swift 6 concurrency (async/await, structured concurrency) to improve performance and thread safety.</li>
+<li>Implemented modular features using VIPER and The Composable Architecture (TCA).</li>
+<li class="ai-highlight">Contributed to AI-driven product initiatives including AI-powered podcast experiences.</li>
+                </ul>
+            </div>
+
+            <div class="section-item">
+<h3 class="job-title">Software Engineer Mobile</h3>
+<div class="company-date">PAYBACK GmbH / Munich (02/2023-07/2023)</div>
+                <ul>
+<li>Integrated Airship push notification system with TCA, replacing Firebase.</li>
+<li>Migrated core app sections to SwiftUI + TCA.</li>
+<li>Implemented multiple-factor authentication features.</li>
+<li>Delivered brand refresh and widget-based product extensions.</li>
+                </ul>
+            </div>
+
+            <div class="section-item">
+<h3 class="job-title">iOS Software Developer (Self-employed)</h3>
+<div class="company-date">Amsterdam (05/2018-02/2023)</div>
+                <ul>
+<li>Designed and maintained multiple open-source iOS and macOS apps using SwiftUI and TCA.</li>
+<li>Built JLConsoleLog, an in-app logging and debugging console for iOS.</li>
+<li>Published QRCobot and WallCard on the App Store.</li>
+<li>Created OnlySwitch, an open-source macOS menubar app with 5,400+ GitHub stars.</li>
+                </ul>
+            </div>
+
+            <div class="section-item">
+<h3 class="job-title">iOS Application Architect</h3>
+<div class="company-date">YIXIA Technology / Beijing (09/2016-05/2018)</div>
+                <ul>
+<li>Reduced crash rate from 0.5% to 0.07% via CI/CD and architecture standards.</li>
+<li>Modularized project with CocoaPods; build time improved by 15%.</li>
+<li>Designed plugin-based livestream framework; feature delivery efficiency doubled.</li>
+                </ul>
+            </div>
+
+            <div class="section-item">
+<h3 class="job-title">iOS Developer</h3>
+<div class="company-date">Weibo Corporation / China (10/2015-08/2016)</div>
+                <ul>
+<li>Optimized video playback; saved hundreds of millions of EUR in infrastructure costs.</li>
+<li>Improved FPS 2-3x and reduced playback bugs by 60%.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
