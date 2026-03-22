@@ -5,8 +5,12 @@
 {% for node in pages_list %}
   {% if node.title != null %}
     {% if node.layout == "category" %}
-      <a class="category-link {% if page.url == node.url %} active{% endif %}"
-          href="{{ node.url | relative_url }}">{{ node.title }}</a>
+      {% assign target_url = node.url %}
+      {% if node.title == "Resumé" %}
+        {% assign target_url = "/Senior_iOS_Engineer.html" %}
+      {% endif %}
+      <a class="category-link {% if page.url == node.url or page.url == target_url %} active{% endif %}"
+          href="{{ target_url | relative_url }}">{{ node.title }}</a>
     {% endif %}
   {% endif %}
 {% endfor %}

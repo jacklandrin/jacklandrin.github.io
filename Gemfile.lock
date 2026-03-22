@@ -98,6 +98,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  universal-darwin-25
 
 DEPENDENCIES
   jekyll (~> 4.2.1)

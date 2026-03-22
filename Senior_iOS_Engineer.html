@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bo Liu - Resume</title>
+<style>
+    :root {
+        --accent-color: rgb(112, 155, 197);
+        --accent-dark: rgb(90, 132, 175);
+        --accent-light: rgba(112, 155, 197, 0.12);
+        --glass-bg: #ffffff;
+        --glass-border: rgba(112, 155, 197, 0.28);
+        --glass-shadow: 0 4px 20px rgba(112, 155, 197, 0.12);
+        --text-primary: #1e2a3a;
+        --text-secondary: #4a5a6e;
+    }
+
+    body {
+        margin: 0;
+        padding: 40px 20px;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        background-color: #f2f5f9;
+        color: var(--text-primary);
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+
+    .resume-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        box-shadow: var(--glass-shadow);
+        border-radius: 24px;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+    }
+
+    .header {
+        grid-column: 1 / -1;
+        padding: 30px 40px;
+        border-bottom: 1px solid var(--glass-border);
+        background: var(--accent-light);
+        position: relative;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        color: var(--accent-color);
+    }
+
+    .title {
+        color: var(--text-primary);
+        font-size: 1.2rem;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+    }
+
+    .contact-info a {
+        color: var(--accent-color);
+        text-decoration: none;
+    }
+    .contact-info a:hover {
+        color: var(--accent-dark);
+        text-decoration: underline;
+    }
+
+    .sidebar {
+        padding: 30px;
+        border-right: none;
+        background: var(--accent-color);
+        color: #ffffff;
+    }
+
+    .main-content {
+        padding: 30px 40px;
+        background: #ffffff;
+    }
+
+    .main-content h2 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        color: var(--accent-dark);
+        border-bottom: 1px solid var(--glass-border);
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    .sidebar h2 {
+        color: #ffffff;
+        border-bottom-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .main-content h2::after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 50px;
+        height: 2px;
+        background: var(--accent-color);
+    }
+
+    .section-item {
+        margin-bottom: 25px;
+    }
+
+    .job-title {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin: 0 0 5px 0;
+    }
+
+    .company-date {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+
+    ul {
+        margin: 0;
+        padding-left: 20px;
+        color: var(--text-secondary);
+    }
+
+    li {
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+
+    .skill-category {
+        margin-bottom: 20px;
+    }
+    .skill-category strong {
+        display: block;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+    .skill-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .sidebar .tag {
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 4px 10px;
+        border-radius: 15px;
+        font-size: 0.85rem;
+        color: #ffffff;
+    }
+    .sidebar .tag:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+    .sidebar .section-item,
+    .sidebar .company-date,
+    .sidebar .job-title {
+        color: #ffffff;
+    }
+
+    .ai-highlight {
+        position: relative;
+        list-style-type: none;
+    }
+    .ai-highlight::before {
+        content: '●';
+        color: var(--accent-color);
+        position: absolute;
+        left: -20px;
+    }
+
+    .resume-container + .resume-container {
+        margin-top: 24px;
+    }
+
+    @media print {
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+        body {
+            background: #ffffff;
+            padding: 0;
+        }
+        .resume-container {
+            margin: 0;
+            box-shadow: none;
+            break-inside: avoid-page;
+            page-break-inside: avoid;
+        }
+        .resume-container + .resume-container {
+            margin-top: 0;
+            break-before: page;
+            page-break-before: always;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .resume-container {
+            grid-template-columns: 1fr;
+        }
+        .sidebar {
+            border-right: none;
+            border-bottom: 2px solid var(--accent-dark);
+            order: 2;
+        }
+        .main-content {
+            order: 1;
+        }
+        .header {
+            padding: 20px;
+        }
+        .contact-info {
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="resume-container">
+    <header class="header">
+        <h1>Bo Liu</h1>
+        <div class="title">Senior iOS Engineer (male)</div>
+        <div class="contact-info">
+            <span>📞 +49 162 6590361</span>
+            <span>✉️ jacklandrin@outlook.com</span>
+            <span><a href="https://github.com/jacklandrin">GitHub: jacklandrin</a></span>
+            <span><a href="https://www.jacklandrin.com">Blog: jacklandrin.com</a></span>
+            <span><a href="https://www.linkedin.com/in/bo-liu-2757308a">LinkedIn: bo-liu-2757308a</a></span>
+        </div>
+    </header>
+
+    <aside class="sidebar">
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skill-category">
+                <strong>Languages</strong>
+                <div class="skill-tags">
+                    <span class="tag">Swift</span>
+                    <span class="tag">Kotlin</span>
+                    <span class="tag">Objective-C</span>
+                    <span class="tag">C++</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <strong>Tech Stack</strong>
+                <div class="skill-tags">
+                    <span class="tag">UIKit</span>
+                    <span class="tag">Auto Layout</span>
+                    <span class="tag">SwiftUI</span>
+                    <span class="tag">Swift Testing</span>
+                    <span class="tag">XCTest</span>
+                    <span class="tag">Firebase</span>
+                    <span class="tag">Combine</span>
+                    <span class="tag">Concurrency</span>
+                    <span class="tag">fastlane</span>
+                    <span class="tag">CI/CD</span>
+                    <span class="tag">SPM</span>
+                    <span class="tag">AWS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <strong>Architecture</strong>
+                <div class="skill-tags">
+                    <span class="tag">MVVM</span>
+                    <span class="tag">VIPER</span>
+                    <span class="tag">TCA</span>
+                    <span class="tag">Clean Architecture</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <strong>Values Alignment</strong>
+                <div class="skill-tags">
+                    <span class="tag">Think Like Owners</span>
+                    <span class="tag">Never Assume</span>
+                    <span class="tag">Keep It Simple</span>
+                    <span class="tag">Best Argument Wins</span>
+                    <span class="tag">Trust & Security</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="section-item">
+                <div class="job-title">Tianjin University of Technology</div>
+                <div class="company-date">2009-2013</div>
+                <div>Bachelor of Science in Information Security</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <div class="skill-tags">
+                <span class="tag">Mandarin (Native)</span>
+                <span class="tag">English (Fluent)</span>
+                <span class="tag">German (B1)</span>
+            </div>
+        </section>
+    </aside>
+
+    <main class="main-content">
+        <section>
+            <h2>Relevant iOS Experience</h2>
+
+            <div class="section-item">
+                <h3 class="job-title">Senior Software Engineer (iOS)</h3>
+                <div class="company-date">Axel Springer National Media & Tech GmbH / Berlin (12/2023 - Present)</div>
+                <ul>
+                    <li class="ai-highlight">Owned end-to-end delivery of iOS features from discovery to release, including Home Screen widgets that drive about <strong>8%</strong> of app traffic.</li>
+                    <li>Built polished native UX in Swift, UIKit, and <strong>SwiftUI</strong> with strong attention to accessibility, reliability, and measurable customer impact, using TCA for modular product flows.</li>
+                    <li class="ai-highlight">Improved quality and release confidence through robust CI/CD, code review standards, and a pragmatic "keep it simple" engineering approach.</li>
+                    <li>Consistently optimized our development workflow to adapt quickly to changing requirements, combining Swift concurrency and modular architecture to reduce defects and improve team velocity.</li>
+                    <li class="ai-highlight">Actively leveraged AI agents in daily development, especially <strong>Codex</strong> and <strong>Cursor</strong>, for faster prototyping, refactoring, and review preparation, which increased iteration speed without lowering quality standards.</li>
+                    <li>Delivered work in a <strong>trunk-based development</strong> style, using <strong>feature flags</strong> and <strong>A/B Tesing</strong>, validate impact quickly, and iterate based on real usage data.</li>
+                    <li class="ai-highlight">Worked closely with product, design, backend, and QA so the best argument wins and decisions are validated by user and business outcomes.</li>
+                </ul>
+            </div>
+
+            <div class="section-item">
+                <h3 class="job-title">Software Engineer Mobile</h3>
+                <div class="company-date">PAYBACK GmbH / Munich (02/2023-07/2023)</div>
+                <ul>
+                    <li>Delivered customer-facing iOS features and notification journeys with high reliability and clear product ownership, using TCA for predictable state and scalable feature delivery.</li>
+                    <li class="ai-highlight">Implemented MFA and account security enhancements, aligning delivery with trust-first principles and production safety.</li>
+                    <li>Migrated key app modules to SwiftUI while maintaining UIKit screens, balancing modernization with stable release execution.</li>
+                    <li>Integrated Airship push notification infrastructure and replaced existing messaging flows with a more maintainable setup.</li>
+                    <li>Contributed to a brand refresh and widget extensions, partnering with design and product to ship polished releases on tight timelines.</li>
+                    <li>Strengthened team delivery quality through active code reviews and clear engineering standards in day-to-day collaboration.</li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+</div>
+
+<div class="resume-container">
+    <aside class="sidebar"></aside>
+
+    <main class="main-content">
+        <section>
+            <h2>Previous iOS Experience (Continued)</h2>
+
+            <div class="section-item">
+                <h3 class="job-title">iOS Software Developer (Self-employed)</h3>
+                <div class="company-date">Amsterdam (05/2018-02/2023)</div>
+                <ul>
+                    <li class="ai-highlight">Built and shipped iOS/macOS products with full ownership across architecture, implementation, release, and long-term maintenance.</li>
+                    <li>Created QRCobot with camera-first QR/barcode flows using native iOS APIs, with focus on practical UX and clear user value.</li>
+                    <li>Created OnlySwitch with <strong>SwiftUI</strong> and TCA; reached <strong>5,500+</strong> GitHub stars by continuously iterating from community feedback and production learnings.</li>
+                    <li class="ai-highlight">Practiced "never assume" by validating behavior with logging, tests, and observability tooling before scaling features.</li>
+                </ul>
+            </div>
+
+            <div class="section-item">
+                <h3 class="job-title">iOS Application Architect</h3>
+                <div class="company-date">Yizhibo (Weibo Group) / Beijing (09/2016-05/2018)</div>
+                <ul>
+                    <li class="ai-highlight">Reduced crash rate from <strong>0.5% to 0.07%</strong> through engineering standards, CI/CD, and sustained quality ownership.</li>
+                    <li>Modularized a large iOS codebase with CocoaPods and improved build time by 15%, enabling faster and safer team delivery.</li>
+                    <li>Designed a plugin-based live-stream framework that doubled feature iteration speed under rapidly changing product needs.</li>
+                </ul>
+            </div>
+
+            <div class="section-item">
+                <h3 class="job-title">iOS Developer</h3>
+                <div class="company-date">Weibo Corporation / Beijing (10/2015-08/2016)</div>
+                <ul>
+                    <li>Optimized video playback and feed performance, improving FPS 2x-3x in high-load scenarios.</li>
+                    <li>Reduced playback issues by 60% through A/B testing, benchmarking, and rigorous cross-functional debugging loops.</li>
+                    <li>Contributed to large-scale customer growth by improving autoplay and preload strategies in production, helping save <strong>hundreds of millions of EUR</strong> in infrastructure costs.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
