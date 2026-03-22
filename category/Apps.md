@@ -44,6 +44,7 @@ It's introduced by [ifun.de](https://www.ifun.de/suche/OnlySwitch), [itopnews.de
 Tag: `open source`, `macOS`, `SwiftUI`
 
 [OnlySwitch](https://onlyswitch.click)
+
 [Github](https://github.com/jacklandrin/OnlySwitch)
 
 ---
@@ -56,6 +57,7 @@ It's introduced by [iphone-ticker.de](https://www.iphone-ticker.de/auch-als-widg
 Tag: `iOS`, `SwiftUI`
 
 [QRCobot](https://www.jacklandrin.com/qrcobot/)
+
 [App Store](https://apps.apple.com/us/app/qrcobot-qr-code-bar-code/id1590006394)
 
 ---
@@ -90,7 +92,6 @@ Tag: `iOS`, `Objective-C`
 
 Tag: `open source`, `iOS`, `SwiftUI`
 
-[App Store](https://apps.apple.com/us/app/wallcard/id1601311095)
 
 [Github](https://github.com/jacklandrin/JLQuizCard)
 
