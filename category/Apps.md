@@ -4,6 +4,7 @@ title: Apps
 ---
 
 ## WELT News
+<img width="100" height="100" src="/assets/img/images/icons/WELT_App.png">
 
 **WELT News** is a German news app that combines breaking news, background analysis, and live TV in one place. It covers politics, business, sports, culture, and international topics with fast push notifications for major events. Users can watch WELT live streams directly in the app, listen to podcasts, and access premium stories through WELTplus.
 
@@ -14,6 +15,7 @@ Tag: `iOS`, `news`
 ---
 
 ## OnlyBaby
+<img width="100" height="100" src="/assets/img/images/icons/OnlyBaby_Icon.png">
 
 **OnlyBaby** is a baby care tracking app focused on daily parenting routines. Parents can track diapers, feeding, breastfeeding, pumping, and contractions in one place, then review trends with charts. It also supports Home Screen widgets and Lock Screen Live Activity for quick logging.
 
@@ -24,6 +26,8 @@ Tag: `iOS`, `Health & Fitness`
 ---
 
 ## PAYBACK
+<img width="100" height="100" src="/assets/img/images/icons/PAYBACK_Icon.png">
+
 **PAYBACK** is the biggest loyalty program in Germany. It has 30 million users and hundred partners. Users can scan bar codes or online shop to collect points. PAYBACK collaborates with partners to offer massive coupons for customers as well.
 
 Tag: `iOS`, `SwiftUI`, `TCA`
@@ -34,6 +38,7 @@ Tag: `iOS`, `SwiftUI`, `TCA`
 
 
 ## OnlySwitch
+<img width="120" height="120" src="/assets/img/images/icons/OnlySwitch_Icon.png">
 
 **OnlySwitch** provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly.
 
@@ -50,6 +55,8 @@ Tag: `open source`, `macOS`, `SwiftUI`
 ---
 
 ## QRCobot
+<img width="100" height="100" src="/assets/img/images/icons/QRCobot_Icon.png">
+
 **QRCobot** is an extraordinary utility for QR & Bar code. Users can easily create QR & Bar codes that they want, and share them with others. The iOS widgets can show the favourite QR codes on Home screen, which helps users conveniently scan them.
 
 It's introduced by [iphone-ticker.de](https://www.iphone-ticker.de/auch-als-widget-qrcobot-erstellt-qr-und-strichcodes-184093/)
@@ -63,6 +70,7 @@ Tag: `iOS`, `SwiftUI`
 ---
 
 ## Weibo
+<img width="100" height="100" src="/assets/img/images/icons/Weibo_Icon.png">
 
 **Weibo** is the biggest social media platform in China. It has **500 million** users globally.
 
