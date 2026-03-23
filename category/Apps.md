@@ -28,7 +28,7 @@ Tag: `iOS`, `Health & Fitness`
 ## PAYBACK
 <img width="100" height="100" src="/assets/img/images/icons/PAYBACK_Icon.png">
 
-**PAYBACK** is the biggest loyalty program in Germany. It has 30 million users and hundred partners. Users can scan bar codes or online shop to collect points. PAYBACK collaborates with partners to offer massive coupons for customers as well.
+**PAYBACK** is the largest loyalty program in Germany. It has 30 million users and hundreds of partners. Users can scan barcodes or shop online to collect points. PAYBACK also collaborates with partners to offer a wide range of coupons.
 
 Tag: `iOS`, `SwiftUI`, `TCA`
 
@@ -40,11 +40,11 @@ Tag: `iOS`, `SwiftUI`, `TCA`
 ## OnlySwitch
 <img width="120" height="120" src="/assets/img/images/icons/OnlySwitch_Icon.png">
 
-**OnlySwitch** provides a series of toggle switches to simply your routine work, such as Hiden desktop icons, dark mode and hide notch of new Macbook Pro. The switches show on your statusbar, you can control them effortlessly.
+**OnlySwitch** provides a set of toggle switches to simplify your daily routine, such as hiding desktop icons, enabling dark mode, and hiding the notch on newer MacBook Pro models. The switches appear in your menu bar, so you can control them effortlessly.
 
-It's the first of Github Week & Today Swift Trending by OnlySwitch in Dec, 2021.
+In December 2021, OnlySwitch ranked #1 on GitHub Weekly and Today Swift Trending.
 
-It's introduced by [ifun.de](https://www.ifun.de/suche/OnlySwitch), [itopnews.de](https://www.itopnews.de/?s=OnlySwitch), [appgefahren.de](https://www.appgefahren.de/onlyswitch-kleines-tool-mit-wichtigen-aktionen-fuer-die-mac-menueleiste-312135.html), [CASCHYS BLOG](https://stadt-bremerhaven.de/only-switch-fuer-macos-schnellzugriff-auf-einige-systemoptionen/), [softpedia.com](https://mac.softpedia.com/get/System-Utilities/OnlySwitch.shtml), [v1tx](https://www.v1tx.com/post/onlyswitch/), [oschina](https://www.oschina.net/p/onlyswitch), [macken](https://www.macken.xyz/2021/01/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/), [AAPL Ch](https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html)
+It has been featured by [ifun.de](https://www.ifun.de/suche/OnlySwitch), [itopnews.de](https://www.itopnews.de/?s=OnlySwitch), [appgefahren.de](https://www.appgefahren.de/onlyswitch-kleines-tool-mit-wichtigen-aktionen-fuer-die-mac-menueleiste-312135.html), [CASCHYS BLOG](https://stadt-bremerhaven.de/only-switch-fuer-macos-schnellzugriff-auf-einige-systemoptionen/), [softpedia.com](https://mac.softpedia.com/get/System-Utilities/OnlySwitch.shtml), [v1tx](https://www.v1tx.com/post/onlyswitch/), [oschina](https://www.oschina.net/p/onlyswitch), [macken](https://www.macken.xyz/2021/01/gratis-ar-gott-alla-installningar-pa-ett-stalle-onlyswitch/), [AAPL Ch](https://applech2.com/archives/20220111-onlyswitch-all-in-one-status-bar-button-for-mac.html)
 
 Tag: `open source`, `macOS`, `SwiftUI`
 
@@ -57,9 +57,9 @@ Tag: `open source`, `macOS`, `SwiftUI`
 ## QRCobot
 <img width="100" height="100" src="/assets/img/images/icons/QRCobot_Icon.png">
 
-**QRCobot** is an extraordinary utility for QR & Bar code. Users can easily create QR & Bar codes that they want, and share them with others. The iOS widgets can show the favourite QR codes on Home screen, which helps users conveniently scan them.
+**QRCobot** is a powerful utility for QR and bar codes. Users can easily create the QR and bar codes they need and share them with others. iOS widgets can display favorite QR codes on the Home Screen for quick scanning.
 
-It's introduced by [iphone-ticker.de](https://www.iphone-ticker.de/auch-als-widget-qrcobot-erstellt-qr-und-strichcodes-184093/)
+It has been featured by [iphone-ticker.de](https://www.iphone-ticker.de/auch-als-widget-qrcobot-erstellt-qr-und-strichcodes-184093/)
 
 Tag: `iOS`, `SwiftUI`
 
@@ -72,9 +72,9 @@ Tag: `iOS`, `SwiftUI`
 ## Weibo
 <img width="100" height="100" src="/assets/img/images/icons/Weibo_Icon.png">
 
-**Weibo** is the biggest social media platform in China. It has **500 million** users globally.
+**Weibo** is one of the largest social media platforms in China. It has **500 million** users globally.
 
- I am responsible for the development of video live streaming and vlog functions.
+I was responsible for developing live video streaming and vlog features.
 
 Tag: `iOS`, `Objective-C`
 
@@ -84,9 +84,9 @@ Tag: `iOS`, `Objective-C`
 
 ## Yizhibo
 
-**Yizhibo** is the one of most popular livestream video app in China. 
+**Yizhibo** is one of the most popular live-streaming video apps in China.
 
-I am responsible for the architect of app.
+I was responsible for the app architecture.
 
 Tag: `iOS`, `Objective-C`
 
@@ -96,7 +96,7 @@ Tag: `iOS`, `Objective-C`
 
 ## JLQuizCard
 
-**JLQuizCard** is little Anki card app developed with SwiftUI. You can swipe the card to shift questions, and edit your questions and answers. The card can be set as lock screen wallpaper by shortcuts, which can help you to review.
+**JLQuizCard** is a lightweight Anki-style flashcard app developed with SwiftUI. You can swipe cards to move through questions and edit your questions and answers. Cards can also be set as Lock Screen wallpapers via Shortcuts to help with review.
 
 Tag: `open source`, `iOS`, `SwiftUI`
 
@@ -107,7 +107,7 @@ Tag: `open source`, `iOS`, `SwiftUI`
 
 ## JLConsoleLog
 
-**JLConsoleLog** is an awesome tool In-App to help swift developer log information in both development and production environment. You won't miss any key and useful logs about the bugs in non-debug mode. You also can integrate it in your project's backdoor toolkit, it will help you solve vital issues.
+**JLConsoleLog** is an in-app logging tool that helps Swift developers capture information in both development and production environments. It ensures you do not miss important logs related to bugs in non-debug mode. You can also integrate it into your project's backdoor toolkit to troubleshoot critical issues.
 
 Tag: `open source`, `iOS`, `debugging tool`, `Swift`
 
@@ -117,7 +117,7 @@ Tag: `open source`, `iOS`, `debugging tool`, `Swift`
 
 ## Xiudou
 
-**Xiudou** is the one of earliest video eCommerce platform. Shopping in vlogs.
+**Xiudou** is one of the earliest video e-commerce platforms, enabling shopping through vlogs.
  
 Tag: `iOS`, `Objective-C`
 
@@ -125,7 +125,7 @@ Tag: `iOS`, `Objective-C`
 
 ## QFPay
 
-**QFPay** is a mini POS terminal. It can access smart phone and computer client to consume in credit card, check balance, repay credit card etc.
+**QFPay** is a compact POS terminal solution. It connects with smartphone and desktop clients to support credit card payments, balance checks, credit card repayment, and more.
 
 
 Tag: `Windows`, `Windows Phone`, `WPF`, `QT`, `C#`, `C++`
@@ -136,7 +136,7 @@ Tag: `Windows`, `Windows Phone`, `WPF`, `QT`, `C#`, `C++`
 
 ## ChalkSeven
 
-**ChalkSeven** is a drop 7 game developed with SwiftUI.
+**ChalkSeven** is a Drop7-style puzzle game developed with SwiftUI.
 
 Tag: `open source`, `iOS`, `SwiftUI`, `game`
 
@@ -146,7 +146,7 @@ Tag: `open source`, `iOS`, `SwiftUI`, `game`
 
 ## GermanWords
 
-A windows phone 8 app for people learning German. It's published in Windows Phone store, but the store is closed now.
+A Windows Phone 8 app for people learning German. It was published in the Windows Phone Store, which is now closed.
 
 Tag: `open source`, `Windows Phone`, `C#`
 
