@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>OnlyBaby – Baby &amp; Mum Log</title>
+		<meta
+			name="description"
+			content="OnlyBaby: track baby logs, contractions, and pump sessions with widgets and Live Activity."
+		/>
+		<style>
+			:root {
+				color-scheme: light dark;
+				--bg: #0b1020;
+				--card: rgba(255, 255, 255, 0.08);
+				--text: rgba(255, 255, 255, 0.92);
+				--muted: rgba(255, 255, 255, 0.7);
+				--link: #7dd3fc;
+				--border: rgba(255, 255, 255, 0.12);
+			}
+
+			@media (prefers-color-scheme: light) {
+				:root {
+					--bg: #f7f8fb;
+					--card: rgba(0, 0, 0, 0.04);
+					--text: rgba(0, 0, 0, 0.88);
+					--muted: rgba(0, 0, 0, 0.62);
+					--link: #2563eb;
+					--border: rgba(0, 0, 0, 0.1);
+				}
+			}
+
+			body {
+				margin: 0;
+				font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica,
+					Arial, sans-serif;
+				background:
+					radial-gradient(1200px 700px at 15% 0%, rgba(236, 72, 153, 0.22), transparent 60%),
+					radial-gradient(1200px 700px at 85% 20%, rgba(99, 102, 241, 0.22), transparent 60%),
+					var(--bg);
+				color: var(--text);
+			}
+
+			.container {
+				max-width: 860px;
+				margin: 0 auto;
+				padding: 44px 20px 64px;
+			}
+
+			.card {
+				padding: 20px;
+				border: 1px solid var(--border);
+				border-radius: 16px;
+				background: var(--card);
+				backdrop-filter: blur(10px);
+			}
+
+			h1 {
+				margin: 0 0 10px;
+				font-size: 34px;
+				line-height: 1.2;
+				letter-spacing: -0.02em;
+			}
+
+			p {
+				margin: 0;
+				color: var(--muted);
+			}
+
+			h2 {
+				margin: 24px 0 10px;
+				font-size: 18px;
+				font-weight: 600;
+				letter-spacing: -0.01em;
+			}
+
+			h2:first-of-type {
+				margin-top: 0;
+			}
+
+			ul {
+				margin: 0;
+				padding-left: 20px;
+				color: var(--muted);
+				line-height: 1.6;
+			}
+
+			.links {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 12px;
+				margin-top: 18px;
+			}
+
+			a {
+				color: var(--link);
+				text-decoration: none;
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+
+			.pill {
+				display: inline-flex;
+				align-items: center;
+				padding: 10px 12px;
+				border: 1px solid var(--border);
+				border-radius: 999px;
+				background: rgba(255, 255, 255, 0.04);
+			}
+
+			footer {
+				margin-top: 16px;
+				font-size: 13px;
+				color: var(--muted);
+			}
+		</style>
+	</head>
+	<body>
+		<main class="container">
+			<section class="card">
+				<h1>OnlyBaby</h1>
+				<p>
+					One place to log baby care and mum care: diaper changes, feeding, breast feeding,
+					contractions, and pumping. Home Screen widgets and Lock Screen Live Activity keep key
+					information at a glance.
+				</p>
+
+				<h2>Baby Log</h2>
+				<ul>
+					<li>Diaper changes, bottle feeding, and breast feeding</li>
+					<li>History, averages, and statistics</li>
+					<li>Export and share logs</li>
+				</ul>
+
+				<h2>Mum Log</h2>
+				<ul>
+					<li>Contractions with Lock Screen Live Activity</li>
+					<li>Pump sessions, volume tracking, and statistics</li>
+					<li>Export and share contractions and pump data</li>
+				</ul>
+
+				<h2>Widgets &amp; Settings</h2>
+				<ul>
+					<li>Milk feeding, diaper, and combined Baby Log widgets</li>
+					<li>System, English, Simplified Chinese, and German language options</li>
+					<li>Baby birthday settings</li>
+				</ul>
+
+				<div class="links">
+					<a
+						class="pill"
+						href="https://apps.apple.com/us/app/onlybaby-baby-tracker/id6758526534"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Download on the App Store
+					</a>
+					<a class="pill" href="/onlybaby/privacy.html" rel="nofollow">Privacy Policy</a>
+				</div>
+
+				<footer>Last updated: 2026-02-02</footer>
+			</section>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+---
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About | Bo Liu" description="About Bo Liu, an Apple platform engineer and architect based in Germany.">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="I build thoughtful software for Apple platforms and help teams turn complex product ideas into dependable systems."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Bo Liu's development workspace"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>I come from Tianjin, China, and now live in Germany. I speak Mandarin and English, along with some German.</p>
+					<p>I have more than a decade of iOS development experience, including technical leadership and app architecture. My work spans news, loyalty, social media, live streaming, health, utilities, and independent products.</p>
+					<p>At Weibo, a platform serving hundreds of millions of people, I worked on live video streaming and vlog features. I also enjoy building open-source tools such as <a href="https://onlyswitch.click">OnlySwitch</a>, which reached #1 on GitHub's weekly Swift trending list.</p>
+				</div>
+			</section>
+			<section>
+			<h2 class="section-title">Focus</h2>
+			<div class="content">
+					<p>Apple platforms, product architecture, SwiftUI, developer experience, and pragmatic technical leadership.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>Swift, SwiftUI, Objective-C, The Composable Architecture, UIKit, app architecture, live video, and cross-functional leadership.</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>

@@ -1,0 +1,365 @@
+---
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import Pill from '../components/Pill.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const experience = [
+	{
+		company: 'Axel Springer National Media & Tech',
+		role: 'Senior Software Engineer, iOS',
+		period: 'December 2023 — Present',
+		location: 'Berlin, Germany',
+		highlights: [
+			'Led development and modernization of a high-traffic consumer news app.',
+			'Delivered widgets, push-notification infrastructure, SwiftUI design systems, and AI-powered podcast experiences.',
+			'Drove SwiftUI migration and adopted Swift 6 concurrency across modular VIPER and TCA architectures.',
+			'Used monitoring, Firebase, and AI-assisted engineering workflows to improve delivery and reliability.',
+		],
+	},
+	{
+		company: 'PAYBACK',
+		role: 'Software Engineer Mobile',
+		period: 'February 2023 — July 2023',
+		location: 'Munich, Germany',
+		highlights: [
+			'Migrated core app areas to SwiftUI and The Composable Architecture.',
+			'Integrated Airship push notifications, implemented MFA, and shipped brand and widget extensions.',
+	],
+	},
+	{
+		company: 'Independent Products & Open Source',
+		role: 'iOS and macOS Developer',
+		period: 'May 2018 — February 2023',
+		location: 'Amsterdam, Netherlands',
+		highlights: [
+			'Created OnlySwitch, an open-source macOS menu bar utility with more than 5,500 GitHub stars.',
+			'Published QRCobot and built developer tools including JLConsoleLog and the flashcard app WallCard.',
+			'Owned product architecture, implementation, distribution, maintenance, and community collaboration.',
+		],
+	},
+	{
+		company: 'YiXia Technology · Yizhibo',
+		role: 'iOS Application Architect',
+		period: 'September 2016 — May 2018',
+		location: 'Beijing, China',
+		highlights: [
+			'Reduced crash rate from 0.5% to 0.07% through architecture standards, CI/CD, and code review.',
+			'Designed a plugin-based live-streaming framework that doubled feature-delivery velocity.',
+			'Reduced build time by 15%, message loss by 30%, and malicious traffic by 80%.',
+		],
+	},
+	{
+		company: 'Weibo Corporation',
+		role: 'iOS Developer',
+		period: 'October 2015 — August 2016',
+		location: 'Beijing, China',
+		highlights: [
+			'Built video experiences for a social platform serving more than 500 million users.',
+			'Improved frame rate by 2–3× and reduced playback defects by 60%.',
+			'Helped drive 5× more video views and 3× longer watch time through playback and feed optimization.',
+		],
+	},
+	{
+		company: 'Beijing Xiudou Network',
+		role: 'iOS Developer',
+		period: 'July 2014 — September 2015',
+		location: 'Beijing, China',
+		highlights: [
+			'Built the foundation of a video-commerce app, including playback, accounts, settings, and purchasing flows.',
+		],
+	},
+	{
+		company: 'QFPay',
+		role: 'Windows Client Developer',
+		period: 'May 2013 — October 2013',
+		location: 'Beijing, China',
+		highlights: [
+			'Developed Windows Phone, WPF, and Qt clients for a compact point-of-sale payment platform.',
+		],
+	},
+];
+
+const skillGroups = [
+	{
+		label: 'Apple platforms',
+		skills: ['Swift', 'SwiftUI', 'UIKit', 'Objective-C', 'AVFoundation', 'Combine', 'Swift Concurrency'],
+	},
+	{
+		label: 'Architecture',
+		skills: ['TCA', 'VIPER', 'MVVM', 'Clean Architecture', 'Modularization', 'Kotlin Multiplatform'],
+	},
+	{
+		label: 'Engineering',
+		skills: ['SPM', 'CocoaPods', 'CI/CD', 'Unit Testing', 'Firebase', 'A/B Testing', 'Crashlytics'],
+	},
+	{
+		label: 'AI workflows',
+		skills: ['Codex', 'Cursor', 'Claude Code', 'LLM-assisted development', 'AI product features'],
+	},
+];
+---
+
+<BaseLayout
+	title="CV | Bo Liu"
+	description="The professional experience, skills, and education of Bo Liu, Senior Software Engineer for Apple platforms."
+>
+	<div class="stack gap-20">
+		<main class="wrapper cv stack gap-15">
+			<Hero
+				title="Curriculum Vitae"
+				tagline="Senior software engineer with more than a decade of experience building, modernizing, and leading mobile products at scale."
+				align="start"
+			>
+				<div class="profile-links">
+					<a href="mailto:jacklandrin@outlook.com">Email</a>
+					<a href="https://www.linkedin.com/in/bo-liu-2757308a">LinkedIn</a>
+					<a href="https://github.com/jacklandrin">GitHub</a>
+					<a href="https://medium.com/@jacklandrin">Medium</a>
+				</div>
+			</Hero>
+
+			<section class="summary panel">
+				<p class="eyebrow">Profile</p>
+				<h2>Apple-platform engineering with product perspective.</h2>
+				<p>
+					I have worked across high-growth startups, independent products, and consumer platforms
+					serving hundreds of millions of people. My focus is native iOS and macOS engineering,
+					scalable architecture, engaging user experiences, and pragmatic technical leadership.
+				</p>
+				<p>
+					Alongside shipping products, I explore how AI can improve both customer experiences and
+					the software-development process.
+				</p>
+			</section>
+
+			<section class="cv-section">
+				<header class="section-heading">
+					<p class="eyebrow">Experience</p>
+					<h2>Career</h2>
+				</header>
+				<div class="timeline">
+					{
+						experience.map((job) => (
+							<article class="job panel">
+								<div class="job-header">
+									<div>
+										<h3>{job.role}</h3>
+										<p class="company">{job.company}</p>
+									</div>
+									<div class="job-meta">
+										<span>{job.period}</span>
+										<span>{job.location}</span>
+									</div>
+								</div>
+								<ul>
+									{job.highlights.map((highlight) => <li>{highlight}</li>)}
+								</ul>
+							</article>
+						))
+					}
+				</div>
+			</section>
+
+			<section class="cv-section">
+				<header class="section-heading">
+					<p class="eyebrow">Capabilities</p>
+					<h2>Technical Skills</h2>
+				</header>
+				<div class="skill-grid">
+					{
+						skillGroups.map((group) => (
+							<div class="skill-group panel">
+								<h3>{group.label}</h3>
+								<div class="pills">{group.skills.map((skill) => <Pill>{skill}</Pill>)}</div>
+							</div>
+						))
+					}
+				</div>
+			</section>
+
+			<section class="cv-section two-column">
+				<div class="panel detail-card">
+					<p class="eyebrow">Education</p>
+					<h2>Tianjin University of Technology</h2>
+					<p>Bachelor of Science in Information Security</p>
+					<p class="muted">2009 — 2013</p>
+				</div>
+				<div class="panel detail-card">
+					<p class="eyebrow">Languages</p>
+					<h2>International collaboration</h2>
+					<p>Chinese · Native</p>
+					<p>English · Professional working proficiency</p>
+					<p>German · B1</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.cv {
+		max-width: 72rem;
+	}
+
+	.profile-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem 1.25rem;
+		margin-top: 0.5rem;
+	}
+
+	.profile-links a {
+		font-family: var(--font-brand);
+		font-weight: 500;
+		text-underline-offset: 0.25em;
+	}
+
+	.panel {
+		border: 1px solid var(--gray-800);
+		border-radius: 1rem;
+		background: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.summary {
+		display: grid;
+		gap: 1rem;
+		padding: 1.5rem;
+		font-size: var(--text-md);
+	}
+
+	.summary h2 {
+		font-size: var(--text-2xl);
+		max-width: 20ch;
+	}
+
+	.summary p:not(.eyebrow) {
+		max-width: 68ch;
+		color: var(--gray-300);
+	}
+
+	.eyebrow {
+		font-family: var(--font-brand);
+		font-size: var(--text-sm);
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--accent-dark);
+	}
+
+	.cv-section,
+	.timeline,
+	.job,
+	.skill-group,
+	.detail-card {
+		display: grid;
+		gap: 1.5rem;
+	}
+
+	.section-heading {
+		display: grid;
+		gap: 0.35rem;
+	}
+
+	.section-heading h2 {
+		font-size: var(--text-3xl);
+	}
+
+	.timeline {
+		position: relative;
+	}
+
+	.job {
+		padding: 1.5rem;
+	}
+
+	.job-header {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+
+	.job h3,
+	.skill-group h3 {
+		font-size: var(--text-xl);
+	}
+
+	.company {
+		margin-top: 0.3rem;
+		font-family: var(--font-brand);
+		color: var(--accent-dark);
+	}
+
+	.job-meta {
+		display: flex;
+		flex-direction: column;
+		font-size: var(--text-sm);
+		color: var(--gray-400);
+	}
+
+	.job ul {
+		display: grid;
+		gap: 0.6rem;
+		padding-left: 1.25rem;
+		color: var(--gray-300);
+	}
+
+	.skill-grid,
+	.two-column {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.skill-group,
+	.detail-card {
+		align-content: start;
+		padding: 1.5rem;
+	}
+
+	.pills {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.detail-card h2 {
+		font-size: var(--text-xl);
+	}
+
+	.detail-card {
+		gap: 0.65rem;
+	}
+
+	.muted {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.summary,
+		.job,
+		.skill-group,
+		.detail-card {
+			padding: 2rem;
+			border-radius: 1.5rem;
+		}
+
+		.job-header {
+			flex-direction: row;
+			justify-content: space-between;
+			gap: 2rem;
+		}
+
+		.job-meta {
+			min-width: 14rem;
+			text-align: right;
+		}
+
+		.skill-grid,
+		.two-column {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+</style>
