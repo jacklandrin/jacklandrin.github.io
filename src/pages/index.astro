@@ -36,6 +36,11 @@ const projects = (await getCollection('work'))
 						<Pill><Icon icon="strategy" size="1.33em" /> Architect</Pill>
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Open Source</Pill>
 					</div>
+					<a class="github-stars" href="https://github.com/jacklandrin" target="_blank" rel="noreferrer">
+						<Icon icon="trophy" size="1.6em" />
+						<span><strong>5,948</strong> GitHub Stars</span>
+						<small>across open-source projects</small>
+					</a>
 				</Hero>
 
 				<img
@@ -125,6 +130,38 @@ const projects = (await getCollection('work'))
 		display: none;
 	}
 
+	.github-stars {
+		display: inline-flex;
+		width: fit-content;
+		align-items: center;
+		gap: 0.6rem;
+		padding: 0.7rem 1rem;
+		border: 1px solid var(--accent-light);
+		border-radius: 999px;
+		color: var(--gray-0);
+		background: var(--gradient-subtle);
+		box-shadow: var(--shadow-sm);
+		font-family: var(--font-brand);
+		text-decoration: none;
+		transition: transform var(--theme-transition), box-shadow var(--theme-transition);
+	}
+
+	.github-stars strong {
+		color: var(--accent-regular);
+		font-size: var(--text-lg);
+	}
+
+	.github-stars small {
+		color: var(--gray-300);
+		font-family: var(--font-body);
+	}
+
+	.github-stars:hover,
+	.github-stars:focus {
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-md);
+	}
+
 	.hero img {
 		aspect-ratio: 5 / 4;
 		object-fit: cover;
@@ -145,6 +182,10 @@ const projects = (await getCollection('work'))
 			margin-top: 0.5rem;
 			display: flex;
 			gap: 0.5rem;
+		}
+
+		.github-stars {
+			margin-top: 0.25rem;
 		}
 
 		.hero img {
