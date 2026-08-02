@@ -10,6 +10,7 @@ import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Skills from '../components/Skills.astro';
+import { getGithubStars } from '../lib/github-stars';
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from '../layouts/BaseLayout.astro';
 
@@ -17,6 +18,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const projects = (await getCollection('work'))
 	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
 	.slice(0, 4);
+const githubStars = new Intl.NumberFormat('en-US').format(await getGithubStars());
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
@@ -38,7 +40,7 @@ const projects = (await getCollection('work'))
 					</div>
 					<a class="github-stars" href="https://github.com/jacklandrin" target="_blank" rel="noreferrer">
 						<Icon icon="trophy" size="1.6em" />
-						<span><strong>5,948</strong> GitHub Stars</span>
+						<span><strong>{githubStars}</strong> GitHub Stars</span>
 						<small>across open-source projects</small>
 					</a>
 				</Hero>
