@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Only Switch</title>
+        <item>
+            <title>2.7.3</title>
+            <pubDate>Fri, 21 Aug 2026 20:52:41 +0200</pubDate>
+            <sparkle:version>261</sparkle:version>
+            <sparkle:shortVersionString>2.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.3/OnlySwitch.dmg" length="27731504" type="application/octet-stream" sparkle:edSignature="5Ig3suVxLkpVr/anWdspSq3DyL7QRGJgfz8K+zpfdKAnMEBafUZxYT/GMvJRsKqU/FbUyJ9RzK3ntKFmvtGRBg=="/>
+        </item>
+        <item>
+            <title>2.7.2</title>
+            <pubDate>Sun, 26 Jul 2026 23:21:52 +0200</pubDate>
+            <sparkle:version>260</sparkle:version>
+            <sparkle:shortVersionString>2.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.2/OnlySwitch.dmg" length="27609153" type="application/octet-stream" sparkle:edSignature="cPNggkS13RkLPA3XNX3ShKOHPa4AcRS9ZjDjBSP6H+azASw71A6phbIQVDMYcrHt8naDwrU6LFcl5BzuZETZAg=="/>
+        </item>
+        <item>
+            <title>2.7.1</title>
+            <pubDate>Wed, 22 Jul 2026 20:51:58 +0200</pubDate>
+            <sparkle:version>259</sparkle:version>
+            <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.1/OnlySwitch.dmg" length="27607881" type="application/octet-stream" sparkle:edSignature="rYSzMvUNtgIQksY6su/WW4vO43Ykg8zZMQbu1rnfTWDlQWCCDMHMwYHekPxIX/kO3UIcPlOK73ov6aK46QX3Dw=="/>
+        </item>
+        <item>
+            <title>2.6.6</title>
+            <pubDate>Tue, 03 Feb 2026 19:34:38 +0100</pubDate>
+            <sparkle:version>250</sparkle:version>
+            <sparkle:shortVersionString>2.6.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.6/OnlySwitch.dmg" length="22921677" type="application/octet-stream" sparkle:edSignature="j6Y5E+zgtFWUof2fQ20MzVT0urmlPdfU/6hw0xJSWoMKNnEeoPGWlG0v38Ax0BBMVPNxQVzg0l8EQVdL0iytDA=="/>
+        </item>
+        <item>
+            <title>2.6.5</title>
+            <pubDate>Mon, 26 Jan 2026 17:22:03 +0100</pubDate>
+            <sparkle:version>249</sparkle:version>
+            <sparkle:shortVersionString>2.6.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.5/OnlySwitch.dmg" length="22049565" type="application/octet-stream" sparkle:edSignature="Hd7NmKVlu01v5pYzM8J0K+RkXRtwRJ7oX3DxZ2o1MLu3WrP1RLocl7+1ZlsgvZFcArUODiDZ2tN1OlAVp/bKBg=="/>
+        </item>
+        <item>
+            <title>2.6.4</title>
+            <pubDate>Thu, 01 Jan 2026 11:33:33 +0100</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>2.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.4/OnlySwitch.dmg" length="21917728" type="application/octet-stream" sparkle:edSignature="ixo6nw1nho725GjxibvBqoshaJueaA3+j+AIXJnmPq1pmXbdiUm8p77m6g3S9aXpynDxB3SS0m9C12ytHJtQDQ=="/>
+        </item>
+        <item>
+            <title>2.6.3</title>
+            <pubDate>Mon, 22 Dec 2025 21:55:59 +0100</pubDate>
+            <sparkle:version>241</sparkle:version>
+            <sparkle:shortVersionString>2.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.3/OnlySwitch.dmg" length="21941487" type="application/octet-stream" sparkle:edSignature="DXfyhujsoEiaS0iQcTm9/ZUJAEZ0jOp5C9Bj0+EUlWCPRMsSpXsiktkHGJDnaIVxFdbOupAKyB8RBcl6q8/oBg=="/>
+        </item>
+        <item>
+            <title>2.6.2</title>
+            <pubDate>Sat, 06 Dec 2025 21:48:30 +0100</pubDate>
+            <sparkle:version>236</sparkle:version>
+            <sparkle:shortVersionString>2.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.2/OnlySwitch.dmg" length="19518580" type="application/octet-stream" sparkle:edSignature="ICVEX9HiUNipE8mUB5//QWZfEa7IpbP24T7uGwx+IdtGSf9b7JfZt5QMJWe8y8X26Mo89DAe3SYcC3F6+KbADA=="/>
+        </item>
+        <item>
+            <title>2.6.1</title>
+            <pubDate>Mon, 24 Nov 2025 22:27:46 +0100</pubDate>
+            <sparkle:version>230</sparkle:version>
+            <sparkle:shortVersionString>2.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.1/OnlySwitch.dmg" length="17505342" type="application/octet-stream" sparkle:edSignature="pmBqWCyo/1O0S1Vqkyq1/fSWp2IRI+nvFalKHRgKYuVvi0IuKymsoi0wxFxqFuRLe6KP5Zp0bjOOTxIJeqZACg=="/>
+        </item>
+    </channel>
+</rss>
