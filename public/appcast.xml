@@ -3,6 +3,14 @@
     <channel>
         <title>Only Switch</title>
         <item>
+            <title>2.7.7</title>
+            <pubDate>Thu, 24 Sep 2026 13:15:56 +0200</pubDate>
+            <sparkle:version>273</sparkle:version>
+            <sparkle:shortVersionString>2.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.7/OnlySwitch.dmg" length="27805037" type="application/octet-stream" sparkle:edSignature="+mNc9JVaqj8CtZcA1QS5N+tCy6CiZtfC+Zsk4WQ4KhHk1sqNd9PcCERuKizcrpLKU41ghWeiBfSbs1j1zQnjBA=="/>
+        </item>
+        <item>
             <title>2.7.6</title>
             <pubDate>Sat, 19 Sep 2026 10:31:39 +0200</pubDate>
             <sparkle:version>271</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>2.7.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.5/OnlySwitch.dmg" length="27418333" type="application/octet-stream" sparkle:edSignature="XnZkD0HC19ld9qSAKl6BtnwQhEtssegzTu9vqW0oppHaEaSlFp+FknWfCAfeO92oBdPuULSk+rDk9fw4kdo2Bg=="/>
-        </item>
-        <item>
-            <title>2.7.4</title>
-            <pubDate>Fri, 11 Sep 2026 19:49:44 +0200</pubDate>
-            <sparkle:version>263</sparkle:version>
-            <sparkle:shortVersionString>2.7.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.4/OnlySwitch.dmg" length="27284535" type="application/octet-stream" sparkle:edSignature="xMPQQh/dNedYs5FIelnXqJAWuShZo2IZZL4vxE5BJPpCOyboYnYsSAcXdpZkDnF670Rc7T1od/+7D/IWwBxYCQ=="/>
         </item>
         <item>
             <title>2.6.6</title>
