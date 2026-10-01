@@ -3,6 +3,14 @@
     <channel>
         <title>Only Switch</title>
         <item>
+            <title>2.8.1</title>
+            <pubDate>Thu, 01 Oct 2026 14:16:23 +0200</pubDate>
+            <sparkle:version>278</sparkle:version>
+            <sparkle:shortVersionString>2.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.8.1/OnlySwitch.dmg" length="31450892" type="application/octet-stream" sparkle:edSignature="HuyHFv9cqOoUlrb5ba+TmXzEdcmCVxybIekV3t2y6IKoSVGN4hvhoFbQGCIs79GQcNGQXox+qok4aEKwRkaxBA=="/>
+        </item>
+        <item>
             <title>2.8.0</title>
             <pubDate>Sat, 26 Sep 2026 15:47:26 +0200</pubDate>
             <sparkle:version>276</sparkle:version>
@@ -17,22 +25,6 @@
             <sparkle:shortVersionString>2.7.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.7/OnlySwitch.dmg" length="27805037" type="application/octet-stream" sparkle:edSignature="+mNc9JVaqj8CtZcA1QS5N+tCy6CiZtfC+Zsk4WQ4KhHk1sqNd9PcCERuKizcrpLKU41ghWeiBfSbs1j1zQnjBA=="/>
-        </item>
-        <item>
-            <title>2.7.6</title>
-            <pubDate>Sat, 19 Sep 2026 10:31:39 +0200</pubDate>
-            <sparkle:version>271</sparkle:version>
-            <sparkle:shortVersionString>2.7.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.6/OnlySwitch.dmg" length="27551219" type="application/octet-stream" sparkle:edSignature="Rg3W0NSaRXFjVaX8K6peQcG9HV8p3f18mx1Jvnk5hDbVO8GVbrezANRfxXj+rlarxcPb8dtbY/URmUGDASS9DQ=="/>
-        </item>
-        <item>
-            <title>2.7.5</title>
-            <pubDate>Thu, 17 Sep 2026 17:23:01 +0200</pubDate>
-            <sparkle:version>268</sparkle:version>
-            <sparkle:shortVersionString>2.7.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.5/OnlySwitch.dmg" length="27418333" type="application/octet-stream" sparkle:edSignature="XnZkD0HC19ld9qSAKl6BtnwQhEtssegzTu9vqW0oppHaEaSlFp+FknWfCAfeO92oBdPuULSk+rDk9fw4kdo2Bg=="/>
         </item>
     </channel>
 </rss>
