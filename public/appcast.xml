@@ -8,7 +8,7 @@
             <sparkle:version>290</sparkle:version>
             <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_3.0.0/OnlySwitch.dmg" length="33709804" type="application/octet-stream" sparkle:edSignature="ZQteomtL2DQZpvRLdVbghVf6+RLxr8DWKjaEz0dca+7iTyToc3+mLgFUUSAinoDyDuTrED36tKxYwyKNkZh5Bw=="/>
+            <enclosure url="https://github.com/jacklandrin/OnlySwitch/releases/download/release_3.1.0/OnlySwitch.dmg" length="33709804" type="application/octet-stream" sparkle:edSignature="ZQteomtL2DQZpvRLdVbghVf6+RLxr8DWKjaEz0dca+7iTyToc3+mLgFUUSAinoDyDuTrED36tKxYwyKNkZh5Bw=="/>
         </item>
         <item>
             <title>3.0.0</title>
